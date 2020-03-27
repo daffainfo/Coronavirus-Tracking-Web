@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    font-family: sans-serif;
+    font-size: 1.0rem;
+  }
+
+  .footer {
+    font-size: large;
+    font-weight: 600;
+  }
+
+  #question, #answer-buttons{
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+  }
+  
+  .controls {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .results {
+    margin: 5px;
+    padding: 5px 10px;
+    outline: none;
+  }

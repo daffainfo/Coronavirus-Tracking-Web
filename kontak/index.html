@@ -1,0 +1,476 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hotline Corona | info-corona.id</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet"/>
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/simple-sidebar.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Info Corona</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p align="center">Hotline Corona</p>
+                <li>
+                  <a href="/">Beranda</a>
+                </li>
+                <li>
+                  <a href="/berita">Berita</a>
+                </li>
+                <li>
+                  <a href="/rumahsakit">Info Rumah Sakit</a>
+                </li>
+                <li>
+                    <a href="/prediksi">Prediksi</a>
+                </li>
+                <li>
+                    <a href="/kontak">Kontak</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="/dev" class="download">Developer web</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Menu</span>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="container">
+            <label for="input" class="pt-2">Cari nomor telepon</label>
+            <input type='text' id='input' onkeyup='searchTable()' placeholder="Cari nomor telepon" class="form-control" width="10px">
+            <br>
+            <table class="table table-striped table-bordered" id="table" data-toggle="table">
+              <thead>
+                <tr>
+                  <th data-order="desc" data-field="no" data-sortable="true">No</th>
+                  <th data-order="desc" data-field="provinsi" data-sortable="true">Provinsi</th>
+                  <th data-order="desc" data-field="telepon" data-sortable="true">Nomor Telepon</th>
+                  <th data-order="desc" data-field="telepon2" data-sortable="true">Nomor Telepon 2</th>
+                  <th data-order="desc" data-field="telepon3" data-sortable="true">Nomor Telepon 3</th>
+                  <th data-order="desc" data-field="telepon4" data-sortable="true">Nomor Telepon 4</th>
+                  <th data-order="desc" data-field="telepon5" data-sortable="true">Nomor Telepon 5</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>0</td>
+                <td>Pemerintah Pusat</td>
+                <td><a href="tel:119*9">119 ext 9</a></td>
+                <td><a href="tel:0215210411">0215210411</a></td>
+                <td><a href="tel:081212123119">081212123119</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Aceh</td>
+                <td><a href="tel:081370113666">081370113666</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sumatera Utara (Sumut)</td>
+                <td><a href="tel:082164902482">082164902482</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sumatera Barat (Sumbar)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Riau</td>
+                <td><a href="tel:076123810">076123810</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Kepulauan Riau (Kepri)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Jambi</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Bengkulu</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Sumatera Selatan (Sumsel)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Kepulauan Bangka Belitung</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Lampung</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Banten</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Jawa Barat (Jabar)</td>
+                <td><a href="tel:119">119</a></td>
+                <td><a href="tel:08112093306">08112093306</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>DKI Jakarta</td>
+                <td><a href="tel:112">112</a></td>
+                <td><a href="tel:081388376955">081388376955</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Jawa Tengah (Jateng)</td>
+                <td><a href="tel:0243580713">0243580713</a></td>
+                <td><a href="tel:082313600560">082313600560</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Yogyakarta</td>
+                <td><a href="tel:0274555585">0274555585</a></td>
+                <td><a href="tel:08112764800">08112764800</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Jawa Timur (Jatim)</td>
+                <td><a href="tel:0318430313">0318430313</a></td>
+                <td><a href="tel:081334367800">081334367800</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Bali</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Nusa Tenggara Barat (NTB)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Nusa Tenggara Timur (NTT)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Provinsi di Pulau Kalimantan</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Kalimantan Utara (Kaltara)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Kalimantan Barat (Kalbar)</td>
+                <td><a href="tel:0215210411">0215210411</a></td>
+                <td><a href="tel:081212123119">081212123119</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Kalimantan Tengah (Kalteng)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Kalimantan Selatan (Kalsel)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Kalimantan Timur (Kaltim)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Gorontalo </td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Sulawesi Utara (Sulut)</td>
+                <td><a href="tel:085341223577">085341223577</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>Sulawesi Barat (Sulbar)</td>
+                <td><a href="tel:081247758484">081247758484</a></td>
+                <td><a href="tel:08114608210">08114608210</a></td>
+                <td><a href="tel:085242908201">085242908201</a></td>
+                <td><a href="tel:085241255494">085241255494</a></td>
+                <td><a href="tel:085390206504">085390206504</a></td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Sulawesi Tengah (Sulteng)</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Sulawesi Selatan (Sulsel)</td>
+                <td><a href="tel:085299354451">085299354451</a></td>
+                <td><a href="tel:081244244473">081244244473</a></td>
+                <td><a href="tel:085242088868">085242088868</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Sulawesi Tenggara (Sultra)</td>
+                <td><a href="tel:082187433107">082187433107</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>Maluku Utara</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>Maluku</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>Papua </td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>Papua Barat</td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+                <td><a href="tel:+">-</a></td>
+            </tr>
+              <tfoot>
+                <tr>
+                  <th>No</th>
+                  <th>Provinsi</th>
+                  <th>Nomor Telepon</th>
+                  <th>Nomor Telepon 2</th>
+                  <th>Nomor Telepon 3</th>
+                  <th>Nomor Telepon 4</th>
+                  <th>Nomor Telepon 5</th>
+                </tr>
+              </tfoot>
+            </table>
+
+            </div><!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+    <script>
+      function searchTable() {
+          var input;
+          var saring;
+          var status; 
+          var tbody; 
+          var tr; 
+          var td;
+          var i; 
+          var j;
+          input = document.getElementById("input");
+          saring = input.value.toUpperCase();
+          tbody = document.getElementsByTagName("tbody")[0];;
+          tr = tbody.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td");
+              for (j = 0; j < td.length; j++) {
+                  if (td[j].innerHTML.toUpperCase().indexOf(saring) > -1) {
+                      status = true;
+                  }
+              }
+              if (status) {
+                  tr[i].style.display = "";
+                  status = false;
+              } else {
+                  tr[i].style.display = "none";
+              }
+          }
+      }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

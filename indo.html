@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Indonesia Map</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <style src="map.css" type="text/css"></style>
+  </head>
+  <body>
+    <div id="container" width="600px" height="200px"></div>
+  </body>
+  	<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/mapdata/countries/id/id-all.js"></script>
+	<script>
+var data = [
+  ['id-ac', 0], //Aceh
+  ['id-jt', 15], //Jawa Tengah
+  ['id-be', 0], //Bengkulu
+  ['id-bt', 47], //Banten
+  ['id-kb', 2], //Kalimantan Barat
+  ['id-bb', 0], //Bangka Belitung
+  ['id-ba', 3], //Bali
+  ['id-ji', 41], //jawa Timur
+  ['id-ks', 1], //Kalimantan Selatan
+  ['id-nt', 0], //NTT
+  ['id-se', 2], //Sulawesi Selatan
+  ['id-kr', 4], //Kep.Riau
+  ['id-ib', 0], //Irian Jaya Barat
+  ['id-su', 2], //Sumatera Utara
+  ['id-ri', 1], //Riau
+  ['id-sw', 1], //Sulawesi Utara
+  ['id-ku', 0], //Kalimantan Utara
+  ['id-la', 0], //Maluku Utara
+  ['id-sb', 0], //Sumatera Barat
+  ['id-ma', 1], //Maluku
+  ['id-nb', 0], //NTB
+  ['id-sg', 3], //Sulawesi Tenggara
+  ['id-st', 0], //Sulawesi Tengah
+  ['id-pa', 2], //Irian jaya
+  ['id-jr', 59], //Jawa Barat
+  ['id-ki', 9], //Kalimantan timur
+  ['id-1024', 1], //Lampung
+  ['id-jk', 307], //Jakarta
+  ['id-go', 0], //Gorontalo
+  ['id-yo', 5], //Jogjakarta
+  ['id-sl', 0], //Sumatera Selatan
+  ['id-sr', 0], //Sulawesi Barat
+  ['id-ja', 0], //Jambi
+  ['id-kt', 2] //kalimantan tengah
+];
+
+// Create the chart
+Highcharts.mapChart('container', {
+  chart: {
+    map: 'countries/id/id-all'
+  },
+
+  title: {
+    text: 'Corona Virus Indonesia'
+  },
+
+  subtitle: {
+    text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/id/id-all.js">Indonesia</a>'
+  },
+
+  mapNavigation: {
+    enabled: true,
+    buttonOptions: {
+      verticalAlign: 'bottom'
+    }
+  },
+
+  colorAxis: {
+    min: 0
+  },
+
+  series: [{
+    data: data,
+    name: 'Positif',
+    states: {
+      hover: {
+        color: '#BADA55'
+      }
+    },
+    dataLabels: {
+      enabled: true,
+      format: '{point.name}'
+    }
+  }]
+});
+	</script>
+</html>

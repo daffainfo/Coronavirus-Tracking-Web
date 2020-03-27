@@ -1,0 +1,930 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Rumah Sakit Rujukan | info-corona.id</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet"/>
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/simple-sidebar.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Info Corona</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p align="center">Rumah Sakit Rujukan</p>
+                <li>
+                  <a href="/">Beranda</a>
+                </li>
+                <li>
+                  <a href="/berita">Berita</a>
+                </li>
+                <li>
+                  <a href="/rumahsakit">Info Rumah Sakit</a>
+                </li>
+                <li>
+                    <a href="/prediksi">Prediksi</a>
+                </li>
+                <li>
+                    <a href="/kontak">Kontak</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="/dev" class="download">Developer web</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Menu</span>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="container">
+            <label for="input" class="pt-2">Cari rumah sakit</label>
+            <input type='text' id='input' onkeyup='searchTable()' placeholder="Cari rumah sakit" class="form-control" width="10px">
+            <br>
+            <table class="table table-striped table-bordered" id="table" data-toggle="table">
+              <thead>
+                <tr>
+                  <th data-order="desc" data-field="no" data-sortable="true">No</th>
+                  <th data-order="desc" data-field="provinsi" data-sortable="true">Provinsi</th>
+                  <th data-order="desc" data-field="rumahsakit" data-sortable="true">Nama Rumah Sakit</th>
+                  <th data-order="desc" data-field="website" data-sortable="true">Website</th>
+                  <th data-order="desc" data-field="email" data-sortable="true">Email</th>
+                  <th data-order="desc" data-field="telepon" data-sortable="true">Nomor Telepon</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td> 
+                  <td>Aceh</td>
+                  <td>RSUD Dr Zainoel Abidin</td> 
+                  <td><a href="https://rsudza.acehprov.go.id/">rsudza.acehprov.go.id</a></td>  
+                  <td><a href="mailto:rsudza@acehprov.go.id">rsudza@acehprov.go.id</a></td> 
+                  <td><a href="tel:065134565">065134565</a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Aceh</td>
+                  <td>RSUD Cut Meutia</td> 
+                  <td><a href="https://rscutmeutia.com/">rscutmeutia.com</a></td>  
+                  <td><a href="mailto:info@rscutmeutia.com">info@rscutmeutia.com</a></td> 
+                  <td><a href="tel:064546334">064546334</a></td>
+                </tr>
+                <tr>
+                  <td>3</td> 
+                  <td>Sumatera Utara</td>
+                  <td>RSUP H Adam Malik</td> 
+                  <td><a href="https://rsham.co.id/en/homepage">rsham.co.id</a></td>  
+                  <td><a href="mailto:admin@rsham.co.id">admin@rsham.co.id</a></td> 
+                  <td><a href="tel:(061) 836-4581">(061) 836-4581</a></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Sumatera Utara</td>
+                  <td>RSUD Kota Padang Sidempuan</td> 
+                  <td>-</td> 
+                  <td>-</td> 
+                  <td><a href="tel:063421780">(0634) 21780</a></td>
+                </tr>
+                <tr>
+                  <td>5</td> 
+                  <td>Sumatera Utara</td>
+                  <td>RSU Kabanjahe</td> 
+                  <td><a href="http://rsukabanjaheprovsumut.com/">rsukabanjaheprovsumut.com</a></td>  
+                  <td><a href="mailto:rsukabanjahe@gmail.com">rsukabanjahe@gmail.com</a></td> 
+                  <td><a href="tel:062820012">(0628) 20012</a></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Sumatera Utara</td>
+                  <td>RSUD Tarutung</td> 
+                  <td>-</td> 
+                  <td>-</td> 
+                  <td><a href="tel:063321303">(0633) 21303</a></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Sumatera Utara</td>
+                  <td>RSUD Dr Djasamen Saragih</td> 
+                  <td><a href="https://rsuddjasamensaragih.id/">rsuddjasamensaragih.id</a></td>  
+                  <td>-</td> 
+                  <td><a href="tel:062223824">(0622) 23824</a></td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Sumatera Barat</td>
+                  <td>RSUP dr M Djamil</td> 
+                  <td><a href="http://www.rsdjamil.co.id/">www.rsdjamil.co.id</a></td>  
+                  <td>-</td> 
+                  <td><a href="tel:075132371">(0751) 32371</a></td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Sumatera Barat</td>
+                  <td>RSUD Dr Achmad Mochtar</td> 
+                  <td><a href="https://rsam-bkt.sumbarprov.go.id/home">rsam-bkt.sumbarprov.go.id</a></td>  
+                  <td>-</td> 
+                  <td><a href="tel:075221720">(0752) 21720</a></td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Sumatera Selatan</td>
+                  <td>RSUP Dr Mohammad Hoesin</td> 
+                  <td><a href="https://www.rsmh.co.id/">https://www.rsmh.co.id/</a></td>  
+                  <td><a href="mailto:humas.rsmh@gmail.com">humas.rsmh@gmail.com@gmail.com</a></td> 
+                  <td><a href="tel:0711354088">(0711) 354088</a></td>
+                </tr>
+                <tr>
+                  <td>11</td> 
+                  <td>Sumatera Selatan</td>
+                  <td>RS Dr Rivai Abdullah</td> 
+                  <td><a href="https://rsrivaiabdullah.id/">rsrivaiabdullah.id</a></td>  
+                  <td><a href="mailto:humas@rsrivaiabdullah.id ">humas@rsrivaiabdullah.id</a></td> 
+                  <td><a href="tel:07117537201">(0711) 7537201</a></td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Sumatera Selatan</td>
+                  <td>RSUD Kayuagung</td> 
+                  <td>-</td>  
+                  <td>-</td> 
+                  <td><a href="tel:0712323889">(0712) 323889</a></td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Sumatera Selatan</td>
+                  <td>RSUD Lahat.</td> 
+                  <td><a href="https://lahatkab.go.id/statis/rumah-sakit">lahatkab.go.id</a></td>  
+                  <td>-</td> 
+                  <td><a href="tel:0731323080">(0731) 323080</a></td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Sumatera Selatan</td>
+                  <td>RSUD Siti Fatimah</td> 
+                  <td><a href="http://rsud.sumselprov.go.id/rsud-siti-fatimah/">rsud.sumselprov.go.id</a></td>  
+                  <td>-</td> 
+                  <td><a href="tel:07115178883">(0711) 5178883</a></td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Riau</td>
+                  <td>RSUD Arifin Achmad</td> 
+                  <td><a href="http://rsudarifinachmad.riau.go.id/">rsudarifinachmad.riau.go.id</a></td>  
+                  <td><a href="mailto:rsudarifinachmad@riau.go.id">rsudarifinachmad@riau.go.id</a></td> 
+                  <td><a href="tel:076121618">(0761) 21618</a></td>
+                </tr>
+                <tr>
+                  <td>16</td> 
+                  <td>Riau</td>
+                  <td>RSUD Puri Husada</td> 
+                  <td>-</td>  
+                  <td>-</td> 
+                  <td><a href="tel:076822118">(0768) 22118</a></td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Riau</td>
+                  <td>RSUD Kota Dumai</td> 
+                  <td>-</td>  
+                  <td>-</td> 
+                  <td><a href="tel:0765440992">(0765) 440992</a></td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Kep. Riau</td>
+                  <td>RSUD Embung Fatimah</td> 
+                  <td><a href="https://rsud.batam.go.id/">https://rsud.batam.go.id/</a></td>  
+                  <td>-</td> 
+                  <td><a href="tel:0778364446">(0778) 364446</a></td>
+                </tr>
+                <tr>
+                  <td>19</td> 
+                  <td>Kep. Riau</td>
+                  <td>RSBP Batam</td> 
+                  <td>-</td>  
+                  <td>-</td> 
+                  <td><a href="tel:0778322046">(0778) 322046</a></td>
+                </tr>
+                <tr>
+                  <td>20</td> 
+                  <td>Kep. Riau</td>
+                  <td>RSUD Provinsi Kepulauan Riau</td> 
+                  <td><a href="https://rsudtpi.kepriprov.go.id/">rsudtpi.kepriprov.go.id/</a></td>  
+                  <td><a href="mailto:rsudkepritanjungpinang@gmail.com">rsudkepritanjungpinang@gmail.com/</a></td>
+                  <td><a href="tel:07717335202">(0771) 7335202</a></td>
+                </tr>
+                <tr>
+                  <td>21</td> 
+                  <td>Kep. Riau</td>
+                  <td>RSUD Muhammad Sani</td> 
+                  <td>-</td>  
+                  <td>-</td>  
+                  <td><a href="tel:0777327808">(0777) 327808</a></td>
+                </tr>
+                <tr>
+                  <td>22</td> 
+                  <td>Jambi</td>
+                  <td>RSUD Raden Mattaher</td> 
+                  <td><a href="http://www.rs-mattaher.com/">www.rs-mattaher.com</a></td>  
+                  <td><a href="mailto:simrs@rs-mattaher.com">simrs@rs-mattaher.com</a></td>  
+                  <td><a href="tel:074161692">074161692</a></td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td>Bangka Belitung</td>
+                  <td>RSUD Dr H Marsidi Judono</td> 
+                  <td>-</td>  
+                  <td><a href="mailto:rsudbelitung@yahoo.com">rsudbelitung@yahoo.com</a></td>  
+                  <td><a href="tel:071921071">(0719) 21071</a></td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>Bangka Belitung</td> 
+                  <td>RSUD Depati Hamzah</td> 
+                  <td>-</td>  
+                  <td>-</td>  
+                  <td><a href="tel:0717438660">(0717) 438660</a></td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>Lampung</td>
+                  <td>RSUD Dr H Abdul Moeloek</td> 
+                  <td>-</td>  
+                  <td>-</td>  
+                  <td><a href="tel:0721703312">(0721) 703312</a></td>
+                </tr>
+                <tr>
+                  <td>26</td>
+                  <td>Lampung</td>
+                  <td>RSUD Dr H Bob Bazar SKM</td> 
+                  <td><a href="http://rsud.lampungselatankab.go.id/">rsud.lampungselatankab.go.id</a></td> 
+                  <td><a href="mailto:admin@rsud.lampungselatankab.go.id">admin@rsud.lampungselatankab.go.id</a></td>  
+                  <td><a href="tel:0721771322">(0721) 771322</a></td>
+                </tr>
+                <tr>
+                  <td>27</td>
+                  <td>Lampung</td>
+                  <td>RSD May Jend HM Ryacudu</td> 
+                  <td><a href="http://rsdryacudu.co.id/">rsdryacudu.co.id</a></td> 
+                  <td><a href="mailto:perencanaan.rsdryacudu@gmail.co">perencanaan.rsdryacudu@gmail.co</a></td>  
+                  <td><a href="tel:072422095">(0724) 22095</a></td>
+                </tr>
+                <tr>
+                  <td>28</td>
+                  <td>Lampung</td>
+                  <td>RSUD Jend Ahmad Yani</td> 
+                  <td><a href="https://rsuay.metrokota.go.id/">rsuay.metrokota.go.id</a></td> 
+                  <td><a href="mailto:rsudayanimetro@ymail.com ">rsudayanimetro@ymail.com </a></td>  
+                  <td><a href="tel:08117999336">08117999336</a></td>
+                </tr>
+                <tr>
+                  <td>29</td> 
+                  <td>Banten</td>
+                  <td>RSU Kabupaten Tangerang</td> 
+                  <td><a href="https://rsud-tangerangkab.id/">rsud-tangerangkab.id</a></td> 
+                  <td><a href="mailto:rsu@rsud-tangerangkab.id">rsu@rsud-tangerangkab.id</a></td>  
+                  <td><a href="tel:0215523507">(021) 5523507</a></td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>Banten</td>
+                  <td>RSUD Dr Dradjat Prawiranegara</td> 
+                  <td><a href="http://rsud.serangkab.go.id/">rsud.serangkab.go.id</a></td> 
+                  <td>-</td>  
+                  <td><a href="tel:0254208833">(0254) 208833</a></td>
+                </tr>
+                <tr>
+                  <td>31</td> 
+                  <td>Bengkulu</td>
+                  <td>RSUD Dr M Yunus</td> 
+                  <td><a href="http://rsudmyunus.com/">rsudmyunus.com</a></td> 
+                  <td>-</td>  
+                  <td><a href="tel:073651111">(0736)51111</a></td>
+                </tr>
+                <tr>
+                  <td>32</td>
+                  <td>Bengkulu</td>
+                  <td>RSUD Hasanuddin Damrah Manna</td> 
+                  <td>-</td> 
+                  <td>-</td>  
+                  <td><a href="tel:085381637684">085381637684</a></td>
+                </tr>
+                <tr>
+                  <td>33</td>
+                  <td>Bengkulu</td>
+                  <td>RSUD Arga Makmur</td> 
+                  <td>-</td> 
+                  <td>-</td>  
+                  <td><a href="tel:0737521118">(0737) 521118</a></td>
+                </tr>
+                <tr>
+                  <td>34</td>
+                  <td>D.I Yogyakarta</td>
+                  <td>RSUD Kota Yogyakarta</td> 
+                  <td><a href="https://rumahsakitjogja.jogjakota.go.id/">rumahsakitjogja.jogjakota.go.id</a></td> 
+                  <td><a href="mailto:rsud@jogjakota.go.id">rsud@jogjakota.go.id</a></td> 
+                  <td><a href="tel:0274371195">0274-371195</a></td>
+                </tr>
+                <tr>
+                  <td>35</td>
+                  <td>D.I Yogyakarta</td>
+                  <td>RSUP dr Sardjito</td> 
+                  <td><a href="https://sardjito.co.id/">sardjito.co.id/</a></td> 
+                  <td><a href="mailto:humas@sardjitohospital.co.id">humas@sardjitohospital.co.id</a></td> 
+                  <td><a href="tel:0274631190">(0274) 631190</a></td>
+                </tr>
+                <tr>
+                  <td>36</td>
+                  <td>D.I Yogyakarta</td>
+                  <td>RSUD Panembahan Senopati</td> 
+                  <td><a href="https://rsudps.bantulkab.go.id/">rsudps.bantulkab.go.id/</a></td> 
+                  <td><a href="mailto:rsudps@bantulkab.go.id">rsudps@bantulkab.go.id</a></td> 
+                  <td><a href="tel:0274367386">0274-367386</a></td>
+                </tr>
+                <tr>
+                  <td>37</td>
+                  <td>D.I Yogyakarta</td>
+                  <td>RSUD Wates</td> 
+                  <td><a href="https://rsud.kulonprogokab.go.id/">rsud.kulonprogokab.go.id/</a></td> 
+                  <td><a href="mailto:rsud@kulonprogokab.go.id">rsud@kulonprogokab.go.id</a></td> 
+                  <td><a href="tel:0274773169">(0274)773169</a></td>
+                </tr>
+                <tr>
+                  <td>38</td>
+                  <td>DKI Jakarta</td>
+                  <td>RSPI Sulianti Saroso</td> 
+                  <td><a href="https://rspi-suliantisaroso.com/">rspi-suliantisaroso.com/</a></td> 
+                  <td><a href="mailto:rspiss.info@gmail.com">rspiss.info@gmail.com</a></td> 
+                  <td><a href="tel:0216506559">(021) 6506559</a></td>  
+                </tr>
+                <tr>
+                  <td>39</td>
+                  <td>DKI Jakarta</td>
+                  <td>RSPAD Gatot Soebroto</td>   
+                  <td><a href="http://rspadgs.net/id">rspadgs.net/id</a></td>   
+                  <td><a href="mailto:info@rspadgs.net">info@rspadgs.net</a></td>   
+                  <td><a href="tel:0213441008">021-3441008</a></td>  
+                </tr>
+                <tr>
+                  <td>40</td>
+                  <td>DKI Jakarta</td>
+                  <td>RSUD Cengkareng</td>   
+                  <td><a href="http://www.rsudcengkareng.com/">rsudcengkareng.com/</a></td>   
+                  <td><a href="mailto:rscengkareng@jakarta.go.id">rscengkareng@jakarta.go.id</a></td>   
+                  <td><a href="tel:02154372874">(021)54372874</a></td>  
+                </tr>
+                <tr>
+                  <td>41</td>
+                  <td>DKI Jakarta</td>
+                  <td>RS Umum Bhayangkara Tk 1 R Said Sukanto (RS Polri)</td>   
+                  <td><a href="http://www.rumkitpolrisukanto.com/">www.rumkitpolrisukanto.com</a></td>   
+                  <td><a href="mailto:rsbhaytk1@yahoo.co.id">rsbhaytk1@yahoo.co.id</a></td>   
+                  <td><a href="tel:021-8093288">021-8093288</a></td>  
+                </tr>
+                <tr>
+                  <td>42</td>
+                  <td>DKI Jakarta</td>
+                  <td>RSUP Persahabatan</td>   
+                  <td><a href="https://www.rsuppersahabatan.co.id/">www.rsuppersahabatan.co.id/</a></td>   
+                  <td><a href="info@rsuppersahabatan.co.id">info@rsuppersahabatan.co.id</a></td>   
+                  <td><a href="tel:02122472222 ">(021) 22472222 </a></td>  
+                </tr>
+                <tr>
+                  <td>43</td>
+                  <td>DKI Jakarta</td>
+                  <td>RSAL Mintohardjo</td>   
+                  <td><a href="https://www.rsalmintohardjo.com/">www.rsalmintohardjo.com/</a></td>   
+                  <td><a href="mailto:rsalminto@gmail.com">rsalminto@gmail.com</a></td>   
+                  <td><a href="tel:021-5703081">021-5703081</a></td>  
+                </tr>
+                <tr>
+                  <td>44</td>
+                  <td>DKI Jakarta</td>
+                  <td>RSUD Pasar Minggu</td>   
+                  <td><a href="http://rsudpasarminggu.jakarta.go.id/">rsudpasarminggu.jakarta.go.id</a></td>   
+                  <td><a href="mailto:marketing@rsudpasarminggu.com">marketing@rsudpasarminggu.com</a></td>   
+                  <td><a href="tel:02129059999">(021)29059999</a></td>  
+                </tr>
+                <tr>
+                  <td>45</td>
+                  <td>DKI Jakarta</td>
+                  <td>RSUP Fatmawati</td>   
+                  <td><a href="http://rsupfatmawati.id/">rsupfatmawati.id</a></td>   
+                  <td><a href="mailto:humas@fatmawatihospital.com">humas@fatmawatihospital.com</a></td>   
+                  <td><a href="tel:0217501524">(021)7501524</a></td>  
+                </tr>
+                <tr>
+                  <td>46</td>
+                  <td>Jawa Barat</td>
+                  <td>RSUP Dr Hasan Sadikin</td>   
+                  <td><a href="https://web.rshs.or.id/">web.rshs.or.id</a></td>   
+                  <td>-</td>   
+                  <td><a href="tel:022203495355">(022) 203495355</a></td>  
+                </tr>
+                <tr>
+                  <td>47</td>
+                  <td>Jawa Barat</td>
+                  <td>RS Paru Dr H A Rotinsulu</td>   
+                  <td><a href="http://rsparurotinsulu.org/">rsparurotinsulu.org</a></td>   
+                  <td><a href="mailto:rsp_bandung@yahoo.co.id">rsp_bandung@yahoo.co.id</a></td>   
+                  <td><a href="tel:0222034446">(022)2034446</a></td>  
+                </tr>
+                <tr>
+                  <td>48</td>
+                  <td>Jawa Barat</td>
+                  <td>RS Paru Dr M Goenawan Partowidigdo</td>   
+                  <td><a href="http://www.rspg-cisarua.co.id/">www.rspg-cisarua.co.id</a></td>   
+                  <td>-</td>   
+                  <td><a href="tel:02518253630">(0251)8253630</a></td>  
+                </tr>
+                <tr>
+                  <td>49</td>
+                  <td>Jawa Barat</td>
+                  <td>RSUD R Syamsudin SH</td>   
+                  <td><a href="https://www.rsudsyamsudin.org/">www.rsudsyamsudin.org</a></td>   
+                  <td><a href="mailto:rsud@sukabumikota.go.id">rsud@sukabumikota.go.id</a></td>   
+                  <td><a href="tel:0266225180 ">0266 225180 </a></td>  
+                <tr>
+                </tr>
+                  <td>50</td>
+                  <td>Jawa Barat</td>
+                  <td>RSUD Kabupaten Indramayu</td>   
+                  <td><a href="https://rsud.indramayukab.go.id/">rsud.indramayukab.go.id</a></td>   
+                  <td><a href="mailto:rsudkabindramayu@yahoo.co.id">rsudkabindramayu@yahoo.co.id</a></td>   
+                  <td><a href="tel:0234272655">0234-272655</a></td>  
+                <tr>
+                </tr>
+                  <td>51</td>
+                  <td>Jawa Barat</td>
+                  <td>RSUD Dr Slamet Garut</td>   
+                  <td>-</td>   
+                  <td>-</td>   
+                  <td><a href="tel:0262237791">(0262) 237791</a></td>  
+                </tr>
+                <tr>
+                  <td>52</td>
+                  <td>Jawa Barat</td>
+                  <td>RSD Gunung Jati</td>   
+                  <td><a href="https://rsudgunungjati.cirebonkota.go.id/">rsudgunungjati.cirebonkota.go.id</a></td>   
+                  <td>-</td>   
+                  <td><a href="tel:0231206330">0231 206330</a></td>  
+                </tr>
+                <tr>
+                  <td>53</td>
+                  <td>Jawa Barat</td>
+                  <td>RS TK II 03.05.01 Dustira</td>   
+                  <td><a href="http://rsdustira.com/">rsdustira.com</a></td>   
+                  <td>-</td>   
+                  <td><a href="tel:(022)6652207">(022)6652207</a></td>  
+                </tr>
+                <tr>
+                  <td>54</td>
+                  <td>Jawa Barat</td>
+                  <td>RSUD Subang</td>   
+                  <td>-</td>   
+                  <td>-</td>   
+                  <td><a href="tel:(0260)411421">(0260) 411421</a></td>  
+                </tr>
+                <tr>
+                  <td>55</td>
+                  <td>Kalimantan Utara</td>
+                  <td>RSUD Dr. H. Soemarno Sosroatmodjo Tanjung Selor</td> 
+                  <td><a href="https://rsutanjungselor.com/">rsutanjungselor.com</a></td>
+                  <td><a href="mailto:bludrsdtanjungselor@gmail.com">bludrsdtanjungselor@gmail.com</a></td>
+                  <td><a href="tel:055221292">0552- 21292</a></td>
+                </tr>
+                <tr>
+                  <td>56</td>
+                  <td>Kalimantan Utara</td>
+                  <td>RSUD Tarakan</td> 
+                  <td><a href="http://www.rsap.palukota.go.id">rsudtarakan.kaltaraprov.go.id</a></td>
+                  <td><a href="mailto:rsudtarakan.kaltara@gmail.com">rsudtarakan.kaltara@gmail.com</a></td>
+                  <td><a href="tel:055121166">0551-21166</a></td>
+                </tr>
+                <tr>
+                  <td>57</td>
+                  <td>Kalimantan Selatan</td>
+                  <td>RSUD Ulin Banjarmasin</td> 
+                  <td><a href="http://www.rsap.palukota.go.id">rsulin.kalselprov.go.id</a></td>
+                  <td><a href="mailto:humasrsudulinbanjarmasin@gmail.com">humasrsudulinbanjarmasin@gmail.com</a></td>
+                  <td><a href="tel:0511-3252180">0511-3252180</a></td>
+                </tr>
+                <tr>
+                  <td>58</td>
+                  <td>Kalimantan Selatan</td>
+                  <td>RSUD H. Boejasin Pelaihari</td> 
+                  <td>-</td>
+                  <td>-</td>
+                  <td><a href="tel:0512-21082">0512-21082</a></td>
+                </tr>
+                <tr>
+                  <!-- Kalimantan Tengah -->
+                  <td>59</td> 
+                  <td>Kalimantan Tengah</td>
+                  <td>RSUD Dr. Daris Sylvanus</td> 
+                  <td><a href="http://rsdorissylvanus.kalteng.go.id">rsdorissylvanus.kalteng.go.id</a></td> 
+                  <td><a href="mailto:rsud.dorissylvanus@gmail.com">rsud.dorissylvanus@gmail.com</a></td>
+                  <td><a href="tel:05363224695">0536-3224695</a></td> 
+                </tr>
+                <tr>
+                  <td>60</td> 
+                  <td>Kalimantan Tengah</td>
+                  <td>RSUD Dr. Murjani Sampit</td> 
+                  <td><a href="http://rsud-drmurjani.go.id/">rsud-drmurjani.go.id</a></td> 
+                  <td>-</td>
+                  <td><a href="tel:053121010">0531-21010</a></td>
+                </tr>
+                <tr>
+                  <td>61</td>
+                  <td>Kalimantan Tengah</td>
+                  <td>RSUD Sultan Imanuddin Pangkalan</td> 
+                  <td>-</td> 
+                  <td>-</td>
+                  <td><a href="tel:053221404">0532-21404</a></td>
+                </tr>
+                <tr>
+                  <!-- Gorontalo -->
+                  <td>62</td> 
+                  <td>Gorontalo</td>
+                  <td>RSUD Prof. Dr. H. Aloei Saboe</td> 
+                  <td><a href="https://rsudaloeisaboe.com/">rsudaloeisaboe.com</a></td> 
+                  <td><a href="mailto:rsudaloeisaboe@gmail.com">rsudaloeisaboe@gmail.com</a></td>
+                  <td><a href="tel:0435821924">0435-821924</a></td>
+                </tr>
+                <tr>
+                  <!-- Sulawesi Utara --> 
+                  <td>63</td> 
+                  <td>Sulawesi Utara</td>
+                  <td>RSUP Prof. Dr. R. D Kandou</td> 
+                  <td><a href="https://www.rsupkandou.com">www.rsupkandou.com</a></td> 
+                  <td><a href="mailto:public@rsupkandou.com">public@rsupkandou.com</a></td>
+                  <td><a href="tel:0431838203">0431-838203</a></td>
+                </tr>
+                <tr>
+                  <td>64</td> 
+                  <td>Sulawesi Utara</td>
+                  <td>RSU Raatatotok Buyat</td> 
+                  <td><a href="http://www.ratatotokbuyathospital.com/">www.ratatotokbuyathospital.com</a></td> 
+                  <td><a href="mailto:hospitalratatotokbuyat@gmail.com">hospitalratatotokbuyat@gmail.com</a></td>
+                  <td><a href="tel:082188789000">082188789000</a></td>
+                </tr>
+                <tr>
+                  <td>65</td> 
+                  <td>Sulawesi Utara</td>
+                  <td>RSUD Dr. Sam Ratulangi Tondano</td> 
+                  <td><a href="https://www.rsudtondano.com/">www.rsudtondano.com</a></td> 
+                  <td><a href="mailto:info@rsudtondano.com">info@rsudtondano.com</a></td>
+                  <td><a href="tel:0431321171">0431-321171</a></td>
+                </tr>
+                <tr>
+                  <td>66</td> 
+                  <td>Sulawesi Utara</td>
+                  <td>RSUD Kota Kotamobagu</td> 
+                  <td><a href="http://rsud.kotamobagukota.go.id/">rsud.kotamobagukota.go.id</a></td> 
+                  <td><a href="mailto:rsud@kotamobagukota.go.id">rsud@kotamobagukota.go.id</a></td>
+                  <td><a href="tel:0435822816">0435-822816</a></td>
+                </tr>
+                <tr>
+            <!-- Kalimantan Barat -->
+                  <td>67</td> 
+                  <td>Kalimantan Barat</td>
+                  <td>RSUD Dr.Soedarso Pontianank</td> 
+                  <td>-</td> 
+                  <td>-</td>
+                  <td><a href="tel:0561737701">0561-737701</a></td>
+                </tr>
+                <tr>
+                  <td>68</td> 
+                  <td>Kalimantan Barat</td>
+                  <td>RSUD Dr. Abdul Azis Singkawang</td> 
+                  <td><a href="https://rsudabdulaziz.com/">https://rsudabdulaziz.com/</a></td> 
+                  <td>-</td>
+                  <td><a href="tel:0562631798">0562-631798</a></td>
+                </tr>
+                <tr>
+                  <td>69</td> 
+                  <td>Kalimantan Barat</td>
+                  <td>RSUD Dr. Agoesdjam Ketapang</td> 
+                  <td>-</td> 
+                  <td>-</td>
+                  <td><a href="tel:056432061">0564-32061</a></td>
+                </tr>
+                <tr>
+                  <td>70</td> 
+                  <td>Kalimantan Barat</td>
+                  <td>RSUD Ade Muhammad Djoen Sintang</td> 
+                  <td><a href="http://rsudsintang.com/">http://rsudsintang.com/</a></td> 
+                  <td><a href="mailto:rsudsintang@gmail.com">rsudsintang@gmail.com</a></td>
+                  <td><a href="tel:05652100222022">0565-21002-22022</a></td>
+                </tr>
+                <tr>
+                  <!-- Kalimantan Timur -->
+                  <td>71</td> 
+                  <td>Kalimantan Timur</td>
+                  <td>RSUD Panglima Sebaya</td> 
+                  <td><a href="http://www.rsudpanglimasebaya.com/">http://www.rsudpanglimasebaya.com/</a></td> 
+                  <td><a href="mailto:humas@rsudpsebaya.paserkab.go.id">humas@rsudpsebaya.paserkab.go.id</a></td>
+                  <td><a href="tel:0543-24563">0543-24563</a></td>
+                </tr>
+                <tr>
+                  <td>72</td> 
+                  <td>Kalimantan Timur</td>
+                  <td>RSU Taman Husada Bontang</td> 
+                  <td><a href="http://rsud.bontangkota.go.id/">http://rsud.bontangkota.go.id/</a></td> 
+                  <td>-</td>
+                  <td><a href="tel:054823000">0548-23000</a></td>
+                </tr>
+                <tr>
+                  <td>73</td> 
+                  <td>Kalimantan Timur</td>
+                  <td>RSUD Dr. Kanujoso Djatiwibowo</td> 
+                  <td><a href="http://rsudkanujoso.com/">http://rsudkanujoso.com/</a></td> 
+                  <td><a href="mailto:rskd@kaltimprov.go.id">rskd@kaltimprov.go.id</a></td>
+                  <td><a href="tel:0542873901">0542-873901</a></td>
+                </tr>
+                <tr>
+                  <td>74</td>
+                  <td>Kalimantan Timur</td>
+                  <td>RSUD Abdul Wahab sjahranie</td> 
+                  <td><a href="http://www.rsudaws.co.id/">http://www.rsudaws.co.id/</a></td> 
+                  <td><a href="mailto:unithumas@rsudaws.co.id">unithumas@rsudaws.co.id</a></td>
+                  <td><a href="tel:0541738118">0541-738118</a></td>
+                </tr>
+                <tr>
+                  <td>75</td>
+                  <td>Kalimantan Timur</td>
+                  <td>RSUD Aji Muhammad Parikesit</td> 
+                  <td><a href="http://rsamp.kukarkab.go.id/">http://rsamp.kukarkab.go.id/</a></td> 
+                  <td><a href="mailto:rsudamparikesit@yahoo.com">rsudamparikesit@yahoo.com</a></td>
+                  <td><a href="tel:0541661015">0541-661015</a></td>
+                </tr>
+                <tr>
+                  <td>76</td> 
+                  <td>Sulawesi Tengah</td>
+                  <td>RSUD Undata Palu</td> 
+                  <td>-</td> 
+                  <td>-</td>
+                  <td><a href="tel:04514908020">0451-4908020</a></td>
+                </tr>
+                <tr>
+                  <td>77</td> 
+                  <td>Sulawesi Tengah</td>
+                  <td>RSUD Kab. Banggai Luwuk</td> 
+                  <td><a href="https://www.rsud-luwuk.com/">https://www.rsud-luwuk.com/</a></td> 
+                  <td><a href="mailto:rsud.luwuk@gmail.com">rsud.luwuk@gmail.com</a></td>
+                  <td><a href="tel:046121820">0461-21820</a></td>
+                </tr>
+                <tr>
+                  <td>78</td> 
+                  <td>Sulawesi Tengah</td>
+                  <td>RSU Mokopido Tali-Tali</td> 
+                  <td>-</td> 
+                  <td>-</td>
+                  <td><a href="tel:056521002">(0565) 21002</a></td>
+                </tr>
+                <tr>
+                  <td>79</td>
+                  <td>Sulawesi Tengah</td>
+                  <td>RSU Anutapura</td> 
+                  <td><a href="http://www.rsap.palukota.go.id">www.rsap.palukota.go.id</a></td> 
+                  <td></td>
+                  <td><a href="tel:0451-460570">0451-460570</a></td>
+                </tr>
+                <tr>
+                  <td>80</td>
+                  <td>Sulawesi Tengah</td>
+                  <td>RSUD Kolonedale</td> 
+                  <td>-</td> 
+                  <td>-</td>
+                  <td><a href="tel:0465-21020">0465-21020</a></td>
+                </tr>
+                <tr>
+                  <td>81</td>
+                  <td>Sulawesi Selatan</td>
+                  <td>RS Dr. Tadjuddin Chalid</td>
+                  <td><a href="http://rstc.co.id">rstc.co.id</a></td>
+                  <td>-</td>
+                  <td><a href="tel:0411513795">0411513795</a></td>
+                </tr>
+                <tr>
+                  <td>82</td>
+                  <td>Sulawesi Selatan</td>
+                  <td>RSU Lakipadada Toraja</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td><a href="tel:042322264">042322264</a></td>
+                </tr>
+                <tr>
+                  <td>83</td>
+                  <td>Sulawesi Selatan</td>
+                  <td>RS Tk. II Pelamonia</td>
+                  <td><a href="http://rumkitpelamonia.id">rumkitpelamonia.id</a></td>
+                  <td><a href="mailto:rsadpelamonia@gmail.com">rsadpelamonia@gmail.com</a></td>
+                  <td><a href="tel:08111782399">08111782399</a></td>
+                <tr>
+                  <td>84</td>
+                  <td>Sulawesi Selatan</td>
+                  <td>RSUD Kab. Sinjal</td>
+                  <td><a href="http://rsudsinjai.com">rsudsinjai.com</a></td>
+                  <td><a href="mailto:rsudsinjai@gmail.com">rsudsinjai@gmail.com</a></td>
+                  <td><a href="tel:048221132">048221132</a></td>
+                </tr>
+                <tr>
+                  <td>85</td>
+                  <td>Sulawesi Selatan</td>
+                  <td>RSUP dr. Wahidin Sudirohusodo</td>
+                  <td><a href="http://rsupwahidin.com">rsupwahidin.com</a></td>
+                  <td><a href="mailto:info@rsupwahidin.com">info@rsupwahidin.com</a></td>
+                  <td><a href="tel:0411592222">0411592222</a></td>
+                </tr>
+                <tr>
+                  <td>86</td>
+                  <td>Sulawesi Selatan</td>
+                  <td>RSUD Labuang Baji</td>
+                  <td><a href="http://rsudlabuangbaji.com">rsudlabuangbaji.com</a></td>
+                  <td><a href="mailto:rsudlabuangbaji.sulsel@gmail.com">rsudlabuangbaji.sulsel@gmail.com</a></td>
+                  <td><a href="tel:0411872120">0411872120</a></td>
+                </tr>
+                <tr>
+                  <td>87</td>
+                  <td>Sulawesi Barat</td>
+                  <td>RSUD Provinsi Sulawesi Barat</td>
+                  <td>-</td>
+                  <td><a href="mailto:rsud.provinsi.sulbar@gmail.com">rsud.provinsi.sulbar@gmail.com</a></td>
+                  <td><a href="tel:04262703260">0426-2703260</a></td>
+                </tr>
+                <tr>
+                  <td>88</td>
+                  <td>Sulawesi Tenggara</td>
+                  <td>RS Bahtera Mas Provinsi Sultra</td>
+                  <td><a href="http://rsud-bahteramas.go.id">rsud-bahteramas.go.id</a></td>
+                  <td><a href="mailto:admin@rsud-bahteramas.go.id">admin@rsud-bahteramas.go.id</a></td>
+                  <td><a href="tel:04013195611">(0401) 319 5611</a></td>
+                </tr>
+                <tr>
+                  <td>89</td>
+                  <td>Maluku</td>
+                  <td>RSU Dr. M. Haulussy Ambon</td>
+                  <td><a href="http://rsudhaulussymaluku.com">rsudhaulussymaluku.com</a></td>
+                  <td><a href="mailto:rsud_haulussy@malukuprov.go.id">rsud_haulussy@malukuprov.go.id</a></td>
+                  <td><a href="tel:0911344871">(0911) 344871</a></td>
+                </tr>
+                <tr>
+                  <td>90</td>
+                  <td>Maluku</td>
+                  <td>RSUD Dr. P. P. Magretti Saumiaki</td>
+                  <td>-</td>
+                  <td><a href="mailto:rsud.magretti.mtb@gmail.com">rsud.magretti.mtb@gmail.com</a></td>
+                  <td><a href="tel:091821113">(0918) 21113</a></td>
+                </tr>
+                <tr>
+                  <td>91</td>
+                  <td>Maluku</td>
+                  <td>RSUP dr. J. Leimena</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>92</td>
+                  <td>Maluku Utara</td>
+                  <td>RSUD Dr. H. Chasan Boesoirie</td>
+                  <td><a href="http://chasanboesoirie.com">chasanboesoirie.com</a></td>
+                  <td><a href="mailto:rsudchasanboesoirie@gmail.com">rsudchasanboesoirie@gmail.com</a></td>
+                  <td><a href="tel:09213121281">0921-3121281</a></td>
+                </tr>
+                <tr>
+                  <td>93</td>
+                  <td>Papua</td>
+                  <td>RSU Jayapura</td>
+                  <td>-</td>
+                  <td><a href="mailto:jyp259392@gmail.com">jyp259392@gmail.com</a></td>
+                  <td><a href="tel:0967533616">(0967) 533616</a></td>
+                </tr>
+                <tr>
+                  <td>94</td>
+                  <td>Papua</td>
+                  <td>RSU Nabire</td>
+                  <td><a href="http://bludrsudnabire.com">bludrsudnabire.com</a></td>
+                  <td><a href="mailto:rsudnabire@yahoo.co.id">rsudnabire@yahoo.co.id</a></td>
+                  <td><a href="tel:098421845">(0984) 21845</a></td>
+                </tr>
+                <tr>
+                  <td>95</td>
+                  <td>Papua</td>
+                  <td>RSU Merauke</td>
+                  <td>-</td>
+                  <td><a href="mailto:rsudmerauke1@gmail.com">rsudmerauke1@gmail.com</a></td>
+                  <td><a href="tel:097132112">(0971) 32112</a></td>
+                </tr>
+                <tr>
+                  <td>96</td>
+                  <td>Papua Barat</td>
+                  <td>RSUD Manokwari</td>
+                  <td>-</td>
+                  <td><a href="mailto:rsu.manokwari@gmail.com">rsu.manokwari@gmail.com</a></td>
+                  <td><a href="tel:0986211440">(0986) 211440</a></td>
+                </tr>
+                <tr>
+                  <td>97</td>
+                  <td>Papua Barat</td>
+                  <td>RSUD Kab. Sorong</td>
+                  <td>-</td>
+                  <td><a href="mailto:rsud.kabsorong@gmail.com">rsud.kabsorong@gmail.com</a></td>
+                  <td><a href="tel:0951321850">(0951) 321850</a></td>
+                </tr>
+              <tfoot>
+                <tr>
+                  <th>No</th>
+                  <th>Provinsi</th>
+                  <th>Nama Rumah Sakit</th>
+                  <th>Website</th>
+                  <th>Email</th>
+                  <th>Nomor Telepon</th>
+                </tr>
+              </tfoot>
+            </table>
+            <h6 align="center">Data from <a href="https://www.facebook.com/photo?fbid=2780181498702981"> Official Facebook Kominfo </h6>
+            </div><!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+    <script>
+      function searchTable() {
+          var input;
+          var saring;
+          var status; 
+          var tbody; 
+          var tr; 
+          var td;
+          var i; 
+          var j;
+          input = document.getElementById("input");
+          saring = input.value.toUpperCase();
+          tbody = document.getElementsByTagName("tbody")[0];;
+          tr = tbody.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td");
+              for (j = 0; j < td.length; j++) {
+                  if (td[j].innerHTML.toUpperCase().indexOf(saring) > -1) {
+                      status = true;
+                  }
+              }
+              if (status) {
+                  tr[i].style.display = "";
+                  status = false;
+              } else {
+                  tr[i].style.display = "none";
+              }
+          }
+      }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
