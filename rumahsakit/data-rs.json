@@ -1,0 +1,970 @@
+[
+    {
+        "no": 1,
+        "prov": "Aceh",
+        "nama_rs": "RSUD Dr Zainoel Abidin",
+        "situs": [{"link": "https://rsudza.acehprov.go.id/", "nama": "rsudza.acehprov.go.id"}],
+        "email": [{"link": "mailto:rsudza@acehprov.go.id", "nama": "rsudza@acehprov.go.id"}],
+        "tel": [{"link": "tel:065134565", "nama": "065134565"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 2,
+        "prov": "Aceh",
+        "nama_rs": "RSUD Cut Meutia",
+        "situs": [{"link": "https://rscutmeutia.com/", "nama": "rscutmeutia.com"}],
+        "email": [{"link": "mailto:info@rscutmeutia.com", "nama": "info@rscutmeutia.com"}],
+        "tel": [{"link": "tel:064546334", "nama": "064546334"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 3,
+        "prov": "Sumatera Utara",
+        "nama_rs": "RSUP H Adam Malik",
+        "situs": [{"link": "https://rsham.co.id/en/homepage", "nama": "rsham.co.id"}],
+        "email": [{"link": "mailto:admin@rsham.co.id", "nama": "admin@rsham.co.id"}],
+        "tel": [{"link": "tel:(061) 836-4581", "nama": "(061) 836-4581"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 4,
+        "prov": "Sumatera Utara",
+        "nama_rs": "RSUD Kota Padang Sidempuan",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:063421780", "nama": "(0634) 21780"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 5,
+        "prov": "Sumatera Utara",
+        "nama_rs": "RSU Kabanjahe",
+        "situs": [{"link": "http://rsukabanjaheprovsumut.com/", "nama": "rsukabanjaheprovsumut.com"}],
+        "email": [{"link": "mailto:rsukabanjahe@gmail.com", "nama": "rsukabanjahe@gmail.com"}],
+        "tel": [{"link": "tel:062820012", "nama": "(0628) 20012"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 6,
+        "prov": "Sumatera Utara",
+        "nama_rs": "RSUD Tarutung",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:063321303", "nama": "(0633) 21303"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 7,
+        "prov": "Sumatera Utara",
+        "nama_rs": "RSUD Dr Djasamen Saragih",
+        "situs": [{"link": "https://rsuddjasamensaragih.id/", "nama": "rsuddjasamensaragih.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:062223824", "nama": "(0622) 23824"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 8,
+        "prov": "Sumatera Barat",
+        "nama_rs": "RSUP dr M Djamil",
+        "situs": [{"link": "http://www.rsdjamil.co.id/", "nama": "www.rsdjamil.co.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:075132371", "nama": "(0751) 32371"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 9,
+        "prov": "Sumatera Barat",
+        "nama_rs": "RSUD Dr Achmad Mochtar",
+        "situs": [{"link": "https://rsam-bkt.sumbarprov.go.id/home", "nama": "rsam-bkt.sumbarprov.go.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:075221720", "nama": "(0752) 21720"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 10,
+        "prov": "Sumatera Selatan",
+        "nama_rs": "RSUP Dr Mohammad Hoesin",
+        "situs": [{"link": "https://www.rsmh.co.id/", "nama": "https://www.rsmh.co.id/"}],
+        "email": [{"link": "mailto:humas.rsmh@gmail.com", "nama": "humas.rsmh@gmail.com@gmail.com"}],
+        "tel": [{"link": "tel:0711354088", "nama": "(0711) 354088"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 11,
+        "prov": "Sumatera Selatan",
+        "nama_rs": "RS Dr Rivai Abdullah",
+        "situs": [{"link": "https://rsrivaiabdullah.id/", "nama": "rsrivaiabdullah.id"}],
+        "email": [{"link": "mailto:humas@rsrivaiabdullah.id ", "nama": "humas@rsrivaiabdullah.id"}],
+        "tel": [{"link": "tel:07117537201", "nama": "(0711) 7537201"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 12,
+        "prov": "Sumatera Selatan",
+        "nama_rs": "RSUD Kayuagung",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0712323889", "nama": "(0712) 323889"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 13,
+        "prov": "Sumatera Selatan",
+        "nama_rs": "RSUD Lahat",
+        "situs": [{"link": "https://lahatkab.go.id/statis/rumah-sakit", "nama": "lahatkab.go.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0731323080", "nama": "(0731) 323080"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 14,
+        "prov": "Sumatera Selatan",
+        "nama_rs": "RSUD Siti Fatimah",
+        "situs": [{"link": "http://rsud.sumselprov.go.id/rsud-siti-fatimah/", "nama": "rsud.sumselprov.go.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:07115178883", "nama": "(0711) 5178883"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 15,
+        "prov": "Riau",
+        "nama_rs": "RSUD Arifin Achmad",
+        "situs": [{"link": "http://rsudarifinachmad.riau.go.id/", "nama": "rsudarifinachmad.riau.go.id"}],
+        "email": [{"link": "mailto:rsudarifinachmad@riau.go.id", "nama": "rsudarifinachmad@riau.go.id"}],
+        "tel": [{"link": "tel:076121618", "nama": "(0761) 21618"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 16,
+        "prov": "Riau",
+        "nama_rs": "RSUD Puri Husada",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:076822118", "nama": "(0768) 22118"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 17,
+        "prov": "Riau",
+        "nama_rs": "RSUD Kota Dumai",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0765440992", "nama": "(0765) 440992"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 18,
+        "prov": "Kep. Riau",
+        "nama_rs": "RSUD Embung Fatimah",
+        "situs": [{"link": "https://rsud.batam.go.id/", "nama": "https://rsud.batam.go.id/"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0778364446", "nama": "(0778) 364446"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 19,
+        "prov": "Kep. Riau",
+        "nama_rs": "RSBP Batam",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0778322046", "nama": "(0778) 322046"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 20,
+        "prov": "Kep. Riau",
+        "nama_rs": "RSUD Provinsi Kepulauan Riau",
+        "situs": [{"link": "https://rsudtpi.kepriprov.go.id/", "nama": "rsudtpi.kepriprov.go.id/"}],
+        "email": [{"link": "mailto:rsudkepritanjungpinang@gmail.com", "nama": "rsudkepritanjungpinang@gmail.com/"}],
+        "tel": [{"link": "tel:07717335202", "nama": "(0771) 7335202"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 21,
+        "prov": "Kep. Riau",
+        "nama_rs": "RSUD Muhammad Sani",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0777327808", "nama": "(0777) 327808"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 22,
+        "prov": "Jambi",
+        "nama_rs": "RSUD Raden Mattaher",
+        "situs": [{"link": "http://www.rs-mattaher.com/", "nama": "www.rs-mattaher.com"}],
+        "email": [{"link": "mailto:simrs@rs-mattaher.com", "nama": "simrs@rs-mattaher.com"}],
+        "tel": [{"link": "tel:074161692", "nama": "074161692"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 23,
+        "prov": "Bangka Belitung",
+        "nama_rs": "RSUD Dr H Marsidi Judono",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:rsudbelitung@yahoo.com", "nama": "rsudbelitung@yahoo.com"}],
+        "tel": [{"link": "tel:071921071", "nama": "(0719) 21071"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 24,
+        "prov": "Bangka Belitung",
+        "nama_rs": "RSUD Depati Hamzah",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0717438660", "nama": "(0717) 438660"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 25,
+        "prov": "Lampung",
+        "nama_rs": "RSUD Dr H Abdul Moeloek",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0721703312", "nama": "(0721) 703312"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 26,
+        "prov": "Lampung",
+        "nama_rs": "RSUD Dr H Bob Bazar SKM",
+        "situs": [{"link": "http://rsud.lampungselatankab.go.id/", "nama": "rsud.lampungselatankab.go.i"}],
+        "email": [{"link": "mailto:admin@rsud.lampungselatankab.go.id", "nama": "admin@rsud.lampungselatankab.go.id"}],
+        "tel": [{"link": "tel:0721771322", "nama": "(0721) 771322"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 27,
+        "prov": "Lampung",
+        "nama_rs": "RSD May Jend HM Ryacudu",
+        "situs": [{"link": "http://rsdryacudu.co.id/", "nama": "rsdryacudu.co.i"}],
+        "email": [{"link": "mailto:perencanaan.rsdryacudu@gmail.co", "nama": "perencanaan.rsdryacudu@gmail.co"}],
+        "tel": [{"link": "tel:072422095", "nama": "(0724) 22095"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 28,
+        "prov": "Lampung",
+        "nama_rs": "RSUD Jend Ahmad Yani",
+        "situs": [{"link": "https://rsuay.metrokota.go.id/", "nama": "rsuay.metrokota.go.i"}],
+        "email": [{"link": "mailto:rsudayanimetro@ymail.com ", "nama": "rsudayanimetro@ymail.com "}],
+        "tel": [{"link": "tel:08117999336", "nama": "08117999336"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 29,
+        "prov": "Banten",
+        "nama_rs": "RSU Kabupaten Tangerang",
+        "situs": [{"link": "https://rsud-tangerangkab.id/", "nama": "rsud-tangerangkab.i"}],
+        "email": [{"link": "mailto:rsu@rsud-tangerangkab.id", "nama": "rsu@rsud-tangerangkab.id"}],
+        "tel": [{"link": "tel:0215523507", "nama": "(021) 5523507"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 30,
+        "prov": "Banten",
+        "nama_rs": "RSUD Dr Dradjat Prawiranegara",
+        "situs": [{"link": "http://rsud.serangkab.go.id/", "nama": "rsud.serangkab.go.i"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0254208833", "nama": "(0254) 208833"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 31,
+        "prov": "Bengkulu",
+        "nama_rs": "RSUD Dr M Yunus",
+        "situs": [{"link": "http://rsudmyunus.com/", "nama": "rsudmyunus.co"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:073651111", "nama": "(0736)51111"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 32,
+        "prov": "Bengkulu",
+        "nama_rs": "RSUD Hasanuddin Damrah Manna",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:085381637684", "nama": "085381637684"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 33,
+        "prov": "Bengkulu",
+        "nama_rs": "RSUD Arga Makmur",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0737521118", "nama": "(0737) 521118"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 34,
+        "prov": "D.I Yogyakarta",
+        "nama_rs": "RSUD Kota Yogyakarta",
+        "situs": [{"link": "https://rumahsakitjogja.jogjakota.go.id/", "nama": "rumahsakitjogja.jogjakota.go.i"}],
+        "email": [{"link": "mailto:rsud@jogjakota.go.id", "nama": "rsud@jogjakota.go.id"}],
+        "tel": [{"link": "tel:0274371195", "nama": "0274-371195"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 35,
+        "prov": "D.I Yogyakarta",
+        "nama_rs": "RSUP dr Sardjito",
+        "situs": [{"link": "https://sardjito.co.id/", "nama": "sardjito.co.id"}],
+        "email": [{"link": "mailto:humas@sardjitohospital.co.id", "nama": "humas@sardjitohospital.co.id"}],
+        "tel": [{"link": "tel:0274631190", "nama": "(0274) 631190"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 36,
+        "prov": "D.I Yogyakarta",
+        "nama_rs": "RSUD Panembahan Senopati",
+        "situs": [{"link": "https://rsudps.bantulkab.go.id/", "nama": "rsudps.bantulkab.go.id"}],
+        "email": [{"link": "mailto:rsudps@bantulkab.go.id", "nama": "rsudps@bantulkab.go.id"}],
+        "tel": [{"link": "tel:0274367386", "nama": "0274-367386"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 37,
+        "prov": "D.I Yogyakarta",
+        "nama_rs": "RSUD Wates",
+        "situs": [{"link": "https://rsud.kulonprogokab.go.id/", "nama": "rsud.kulonprogokab.go.id"}],
+        "email": [{"link": "mailto:rsud@kulonprogokab.go.id", "nama": "rsud@kulonprogokab.go.id"}],
+        "tel": [{"link": "tel:0274773169", "nama": "(0274)773169"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 38,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RSPI Sulianti Saroso",
+        "situs": [{"link": "https://rspi-suliantisaroso.com/", "nama": "rspi-suliantisaroso.com"}],
+        "email": [{"link": "mailto:rspiss.info@gmail.com", "nama": "rspiss.info@gmail.com"}],
+        "tel": [{"link": "tel:0216506559", "nama": "(021) 6506559"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 39,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RSPAD Gatot Soebroto",
+        "situs": [{"link": "http://rspadgs.net/id", "nama": "rspadgs.net/id"}],
+        "email": [{"link": "mailto:info@rspadgs.net", "nama": "info@rspadgs.net"}],
+        "tel": [{"link": "tel:0213441008", "nama": "021-3441008"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 40,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RSUD Cengkareng",
+        "situs": [{"link": "http://www.rsudcengkareng.com/", "nama": "rsudcengkareng.com/"}],
+        "email": [{"link": "mailto:rscengkareng@jakarta.go.id", "nama": "rscengkareng@jakarta.go.id"}],
+        "tel": [{"link": "tel:02154372874", "nama": "(021)54372874"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 41,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RS Umum Bhayangkara Tk 1 R Said Sukanto (RS Polri)",
+        "situs": [{"link": "http://www.rumkitpolrisukanto.com/", "nama": "www.rumkitpolrisukanto.com"}],
+        "email": [{"link": "mailto:rsbhaytk1@yahoo.co.id", "nama": "rsbhaytk1@yahoo.co.id"}],
+        "tel": [{"link": "tel:021-8093288", "nama": "021-8093288"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 42,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RSUP Persahabatan",
+        "situs": [{"link": "https://www.rsuppersahabatan.co.id/", "nama": "www.rsuppersahabatan.co.id/"}],
+        "emailtel": [{"link": "info@rsuppersahabatan.co.id", "nama": "info@rsuppersahabatan.co.id"}],
+        "tel": [{"link": "tel:02122472222 ", "nama": "(021) 22472222 "}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 43,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RSAL Mintohardjo",
+        "situs": [{"link": "https://www.rsalmintohardjo.com/", "nama": "www.rsalmintohardjo.com/"}],
+        "email": [{"link": "mailto:rsalminto@gmail.com", "nama": "rsalminto@gmail.com"}],
+        "tel": [{"link": "tel:021-5703081", "nama": "021-5703081"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 44,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RSUD Pasar Minggu",
+        "situs": [{"link": "http://rsudpasarminggu.jakarta.go.id/", "nama": "rsudpasarminggu.jakarta.go.id"}],
+        "email": [{"link": "mailto:marketing@rsudpasarminggu.com", "nama": "marketing@rsudpasarminggu.com"}],
+        "tel": [{"link": "tel:02129059999", "nama": "(021)29059999"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 45,
+        "prov": "DKI Jakarta",
+        "nama_rs": "RSUP Fatmawati",
+        "situs": [{"link": "http://rsupfatmawati.id/", "nama": "rsupfatmawati.id"}],
+        "email": [{"link": "mailto:humas@fatmawatihospital.com", "nama": "humas@fatmawatihospital.com"}],
+        "tel": [{"link": "tel:0217501524", "nama": "(021)7501524"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 46,
+        "prov": "Jawa Barat",
+        "nama_rs": "RSUP Dr Hasan Sadikin",
+        "situs": [{"link": "https://web.rshs.or.id/", "nama": "web.rshs.or.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:022203495355", "nama": "(022) 203495355"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 47,
+        "prov": "Jawa Barat",
+        "nama_rs": "RS Paru Dr H A Rotinsulu",
+        "situs": [{"link": "http://rsparurotinsulu.org/", "nama": "rsparurotinsulu.org"}],
+        "email": [{"link": "mailto:rsp_bandung@yahoo.co.id", "nama": "rsp_bandung@yahoo.co.id"}],
+        "tel": [{"link": "tel:0222034446", "nama": "(022)2034446"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 48,
+        "prov": "Jawa Barat",
+        "nama_rs": "RS Paru Dr M Goenawan Partowidigdo",
+        "situs": [{"link": "http://www.rspg-cisarua.co.id/", "nama": "www.rspg-cisarua.co.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:02518253630", "nama": "(0251)8253630"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 49,
+        "prov": "Jawa Barat",
+        "nama_rs": "RSUD R Syamsudin SH",
+        "situs": [{"link": "https://www.rsudsyamsudin.org/", "nama": "www.rsudsyamsudin.org"}],
+        "email": [{"link": "mailto:rsud@sukabumikota.go.id", "nama": "rsud@sukabumikota.go.id"}],
+        "tel": [{"link": "tel:0266225180 ", "nama": "0266 225180 "}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 50,
+        "prov": "Jawa Barat",
+        "nama_rs": "RSUD Kabupaten Indramayu",
+        "situs": [{"link": "https://rsud.indramayukab.go.id/", "nama": "rsud.indramayukab.go.id"}],
+        "email": [{"link": "mailto:rsudkabindramayu@yahoo.co.id", "nama": "rsudkabindramayu@yahoo.co.id"}],
+        "tel": [{"link": "tel:0234272655", "nama": "0234-272655"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 51,
+        "prov": "Jawa Barat",
+        "nama_rs": "RSUD Dr Slamet Garut",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0262237791", "nama": "(0262) 237791"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 52,
+        "prov": "Jawa Barat",
+        "nama_rs": "RSD Gunung Jati",
+        "situs": [{"link": "https://rsudgunungjati.cirebonkota.go.id/", "nama": "rsudgunungjati.cirebonkota.go.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0231206330", "nama": "0231 206330"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 53,
+        "prov": "Jawa Barat",
+        "nama_rs": "RS TK II 03.05.01 Dustira",
+        "situs": [{"link": "http://rsdustira.com/", "nama": "rsdustira.com"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:(022)6652207", "nama": "(022)6652207"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 54,
+        "prov": "Jawa Barat",
+        "nama_rs": "RSUD Subang",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:(0260)411421", "nama": "(0260) 411421"}] ,
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 55,
+        "prov": "Kalimantan Utara",
+        "nama_rs": "RSUD Dr. H. Soemarno Sosroatmodjo Tanjung Selor",
+        "situs": [{"link": "https://rsutanjungselor.com/", "nama": "rsutanjungselor.c"}],
+        "email": [{"link": "mailto:bludrsdtanjungselor@gmail.com", "nama": "bludrsdtanjungselor@gmail.com"}],
+        "tel": [{"link": "tel:055221292", "nama": "0552- 21292"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 56,
+        "prov": "Kalimantan Utara",
+        "nama_rs": "RSUD Tarakan",
+        "situs": [{"link": "http://www.rsap.palukota.go.id", "nama": "rsudtarakan.kaltaraprov.go."}],
+        "email": [{"link": "mailto:rsudtarakan.kaltara@gmail.com", "nama": "rsudtarakan.kaltara@gmail.com"}],
+        "tel": [{"link": "tel:055121166", "nama": "0551-21166"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 57,
+        "prov": "Kalimantan Selatan",
+        "nama_rs": "RSUD Ulin Banjarmasin",
+        "situs": [{"link": "http://www.rsap.palukota.go.id", "nama": "rsulin.kalselprov.go."}],
+        "email": [{"link": "mailto:humasrsudulinbanjarmasin@gmail.com", "nama": "humasrsudulinbanjarmasin@gmail.com"}],
+        "tel": [{"link": "tel:0511-3252180", "nama": "0511-3252180"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 58,
+        "prov": "Kalimantan Selatan",
+        "nama_rs": "RSUD H. Boejasin Pelaihari",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0512-21082", "nama": "0512-21082"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 59,
+        "prov": "Kalimantan Tengah",
+        "nama_rs": "RSUD Dr. Daris Sylvanus",
+        "situs": [{"link": "http://rsdorissylvanus.kalteng.go.id", "nama": "rsdorissylvanus.kalteng.go.i"}],
+        "email": [{"link": "mailto:rsud.dorissylvanus@gmail.com", "nama": "rsud.dorissylvanus@gmail.com"}],
+        "tel": [{"link": "tel:05363224695", "nama": "0536-3224695"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 60,
+        "prov": "Kalimantan Tengah",
+        "nama_rs": "RSUD Dr. Murjani Sampit",
+        "situs": [{"link": "http://rsud-drmurjani.go.id/", "nama": "rsud-drmurjani.go.i"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:053121010", "nama": "0531-21010"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 61,
+        "prov": "Kalimantan Tengah",
+        "nama_rs": "RSUD Sultan Imanuddin Pangkalan",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:053221404", "nama": "0532-21404"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 62,
+        "prov": "Gorontalo",
+        "nama_rs": "RSUD Prof. Dr. H. Aloei Saboe",
+        "situs": [{"link": "https://rsudaloeisaboe.com/", "nama": "rsudaloeisaboe.co"}],
+        "email": [{"link": "mailto:rsudaloeisaboe@gmail.com", "nama": "rsudaloeisaboe@gmail.com"}],
+        "tel": [{"link": "tel:0435821924", "nama": "0435-821924"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 63,
+        "prov": "Sulawesi Utara",
+        "nama_rs": "RSUP Prof. Dr. R. D Kandou",
+        "situs": [{"link": "https://www.rsupkandou.com", "nama": "www.rsupkandou.co"}],
+        "email": [{"link": "mailto:public@rsupkandou.com", "nama": "public@rsupkandou.com"}],
+        "tel": [{"link": "tel:0431838203", "nama": "0431-838203"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 64,
+        "prov": "Sulawesi Utara",
+        "nama_rs": "RSU Raatatotok Buyat",
+        "situs": [{"link": "http://www.ratatotokbuyathospital.com/", "nama": "www.ratatotokbuyathospital.co"}],
+        "email": [{"link": "mailto:hospitalratatotokbuyat@gmail.com", "nama": "hospitalratatotokbuyat@gmail.com"}],
+        "tel": [{"link": "tel:082188789000", "nama": "082188789000"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 65,
+        "prov": "Sulawesi Utara",
+        "nama_rs": "RSUD Dr. Sam Ratulangi Tondano",
+        "situs": [{"link": "https://www.rsudtondano.com/", "nama": "www.rsudtondano.co"}],
+        "email": [{"link": "mailto:info@rsudtondano.com", "nama": "info@rsudtondano.com"}],
+        "tel": [{"link": "tel:0431321171", "nama": "0431-321171"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 66,
+        "prov": "Sulawesi Utara",
+        "nama_rs": "RSUD Kota Kotamobagu",
+        "situs": [{"link": "http://rsud.kotamobagukota.go.id/", "nama": "rsud.kotamobagukota.go.i"}],
+        "email": [{"link": "mailto:rsud@kotamobagukota.go.id", "nama": "rsud@kotamobagukota.go.id"}],
+        "tel": [{"link": "tel:0435822816", "nama": "0435-822816"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 67,
+        "prov": "Kalimantan Barat",
+        "nama_rs": "RSUD Dr.Soedarso Pontianank",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0561737701", "nama": "0561-737701"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 68,
+        "prov": "Kalimantan Barat",
+        "nama_rs": "RSUD Dr. Abdul Azis Singkawang",
+        "situs": [{"link": "https://rsudabdulaziz.com/", "nama": "https://rsudabdulaziz.com"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0562631798", "nama": "0562-631798"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 69,
+        "prov": "Kalimantan Barat",
+        "nama_rs": "RSUD Dr. Agoesdjam Ketapang",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:056432061", "nama": "0564-32061"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 70,
+        "prov": "Kalimantan Barat",
+        "nama_rs": "RSUD Ade Muhammad Djoen Sintang",
+        "situs": [{"link": "http://rsudsintang.com/", "nama": "http://rsudsintang.com"}],
+        "email": [{"link": "mailto:rsudsintang@gmail.com", "nama": "rsudsintang@gmail.com"}],
+        "tel": [{"link": "tel:05652100222022", "nama": "0565-21002-22022"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 71,
+        "prov": "Kalimantan Timur",
+        "nama_rs": "RSUD Panglima Sebaya",
+        "situs": [{"link": "http://www.rsudpanglimasebaya.com/", "nama": "http://www.rsudpanglimasebaya.com"}],
+        "email": [{"link": "mailto:humas@rsudpsebaya.paserkab.go.id", "nama": "humas@rsudpsebaya.paserkab.go.id"}],
+        "tel": [{"link": "tel:0543-24563", "nama": "0543-24563"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 72,
+        "prov": "Kalimantan Timur",
+        "nama_rs": "RSU Taman Husada Bontang",
+        "situs": [{"link": "http://rsud.bontangkota.go.id/", "nama": "http://rsud.bontangkota.go.id"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:054823000", "nama": "0548-23000"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 73,
+        "prov": "Kalimantan Timur",
+        "nama_rs": "RSUD Dr. Kanujoso Djatiwibowo",
+        "situs": [{"link": "http://rsudkanujoso.com/", "nama": "http://rsudkanujoso.com"}],
+        "email": [{"link": "mailto:rskd@kaltimprov.go.id", "nama": "rskd@kaltimprov.go.id"}],
+        "tel": [{"link": "tel:0542873901", "nama": "0542-873901"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 74,
+        "prov": "Kalimantan Timur",
+        "nama_rs": "RSUD Abdul Wahab sjahranie",
+        "situs": [{"link": "http://www.rsudaws.co.id/", "nama": "http://www.rsudaws.co.id"}],
+        "email": [{"link": "mailto:unithumas@rsudaws.co.id", "nama": "unithumas@rsudaws.co.id"}],
+        "tel": [{"link": "tel:0541738118", "nama": "0541-738118"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 75,
+        "prov": "Kalimantan Timur",
+        "nama_rs": "RSUD Aji Muhammad Parikesit",
+        "situs": [{"link": "http://rsamp.kukarkab.go.id/", "nama": "http://rsamp.kukarkab.go.id"}],
+        "email": [{"link": "mailto:rsudamparikesit@yahoo.com", "nama": "rsudamparikesit@yahoo.com"}],
+        "tel": [{"link": "tel:0541661015", "nama": "0541-661015"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 76,
+        "prov": "Sulawesi Tengah",
+        "nama_rs": "RSUD Undata Palu",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:04514908020", "nama": "0451-4908020"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 77,
+        "prov": "Sulawesi Tengah",
+        "nama_rs": "RSUD Kab. Banggai Luwuk",
+        "situs": [{"link": "https://www.rsud-luwuk.com/", "nama": "https://www.rsud-luwuk.com"}],
+        "email": [{"link": "mailto:rsud.luwuk@gmail.com", "nama": "rsud.luwuk@gmail.com"}],
+        "tel": [{"link": "tel:046121820", "nama": "0461-21820"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 78,
+        "prov": "Sulawesi Tengah",
+        "nama_rs": "RSU Mokopido Tali-Tali",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:056521002", "nama": "(0565) 21002"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 79,
+        "prov": "Sulawesi Tengah",
+        "nama_rs": "RSU Anutapura",
+        "situs": [{"link": "http://www.rsap.palukota.go.id", "nama": "www.rsap.palukota.go.i"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0451-460570", "nama": "0451-460570"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 80,
+        "prov": "Sulawesi Tengah",
+        "nama_rs": "RSUD Kolonedale",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0465-21020", "nama": "0465-21020"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 81,
+        "prov": "Sulawesi Selatan",
+        "nama_rs": "RS Dr. Tadjuddin Chalid",
+        "situs": [{"link": "http://rstc.co.id", "nama": "rstc.co."}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0411513795", "nama": "0411513795"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 82,
+        "prov": "Sulawesi Selatan",
+        "nama_rs": "RSU Lakipadada Toraja",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:042322264", "nama": "042322264"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 83,
+        "prov": "Sulawesi Selatan",
+        "nama_rs": "RS Tk. II Pelamonia",
+        "situs": [{"link": "http://rumkitpelamonia.id", "nama": "rumkitpelamonia."}],
+        "email": [{"link": "mailto:rsadpelamonia@gmail.com", "nama": "rsadpelamonia@gmail.com"}],
+        "tel": [{"link": "tel:08111782399", "nama": "08111782399"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 84,
+        "prov": "Sulawesi Selatan",
+        "nama_rs": "RSUD Kab. Sinjal",
+        "situs": [{"link": "http://rsudsinjai.com", "nama": "rsudsinjai.c"}],
+        "email": [{"link": "mailto:rsudsinjai@gmail.com", "nama": "rsudsinjai@gmail.com"}],
+        "tel": [{"link": "tel:048221132", "nama": "048221132"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 85,
+        "prov": "Sulawesi Selatan",
+        "nama_rs": "RSUP dr. Wahidin Sudirohusodo",
+        "situs": [{"link": "http://rsupwahidin.com", "nama": "rsupwahidin.c"}],
+        "email": [{"link": "mailto:info@rsupwahidin.com", "nama": "info@rsupwahidin.com"}],
+        "tel": [{"link": "tel:0411592222", "nama": "0411592222"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 86,
+        "prov": "Sulawesi Selatan",
+        "nama_rs": "RSUD Labuang Baji",
+        "situs": [{"link": "http://rsudlabuangbaji.com", "nama": "rsudlabuangbaji.c"}],
+        "email": [{"link": "mailto:rsudlabuangbaji.sulsel@gmail.com", "nama": "rsudlabuangbaji.sulsel@gmail.com"}],
+        "tel": [{"link": "tel:0411872120", "nama": "0411872120"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 87,
+        "prov": "Sulawesi Barat",
+        "nama_rs": "RSUD Provinsi Sulawesi Barat",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:rsud.provinsi.sulbar@gmail.com", "nama": "rsud.provinsi.sulbar@gmail.com"}],
+        "tel": [{"link": "tel:04262703260", "nama": "0426-2703260"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 88,
+        "prov": "Sulawesi Tenggara",
+        "nama_rs": "RS Bahtera Mas Provinsi Sultra",
+        "situs": [{"link": "http://rsud-bahteramas.go.id", "nama": "rsud-bahteramas.go."}],
+        "email": [{"link": "mailto:admin@rsud-bahteramas.go.id", "nama": "admin@rsud-bahteramas.go.id"}],
+        "tel": [{"link": "tel:04013195611", "nama": "(0401) 319 5611"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 89,
+        "prov": "Maluku",
+        "nama_rs": "RSU Dr. M. Haulussy Ambon",
+        "situs": [{"link": "http://rsudhaulussymaluku.com", "nama": "rsudhaulussymaluku.c"}],
+        "email": [{"link": "mailto:rsud_haulussy@malukuprov.go.id", "nama": "rsud_haulussy@malukuprov.go.id"}],
+        "tel": [{"link": "tel:0911344871", "nama": "(0911) 344871"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 90,
+        "prov": "Maluku",
+        "nama_rs": "RSUD Dr. P. P. Magretti Saumiaki",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:rsud.magretti.mtb@gmail.com", "nama": "rsud.magretti.mtb@gmail.com"}],
+        "tel": [{"link": "tel:091821113", "nama": "(0918) 21113"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 91,
+        "prov": "Maluku",
+        "nama_rs": "RSUP dr. J. Leimena",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "-", "nama": "-"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 92,
+        "prov": "Maluku Utara",
+        "nama_rs": "RSUD Dr. H. Chasan Boesoirie",
+        "situs": [{"link": "http://chasanboesoirie.com", "nama": "chasanboesoirie.c"}],
+        "email": [{"link": "mailto:rsudchasanboesoirie@gmail.com", "nama": "rsudchasanboesoirie@gmail.com"}],
+        "tel": [{"link": "tel:09213121281", "nama": "0921-3121281"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 93,
+        "prov": "Papua",
+        "nama_rs": "RSU Jayapura",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:jyp259392@gmail.com", "nama": "jyp259392@gmail.com"}],
+        "tel": [{"link": "tel:0967533616", "nama": "(0967) 533616"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 94,
+        "prov": "Papua",
+        "nama_rs": "RSU Nabire",
+        "situs": [{"link": "http://bludrsudnabire.com", "nama": "bludrsudnabire.c"}],
+        "email": [{"link": "mailto:rsudnabire@yahoo.co.id", "nama": "rsudnabire@yahoo.co.id"}],
+        "tel": [{"link": "tel:098421845", "nama": "(0984) 21845"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 95,
+        "prov": "Papua",
+        "nama_rs": "RSU Merauke",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:rsudmerauke1@gmail.com", "nama": "rsudmerauke1@gmail.com"}],
+        "tel": [{"link": "tel:097132112", "nama": "(0971) 32112"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 96,
+        "prov": "Papua Barat",
+        "nama_rs": "RSUD Manokwari",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:rsu.manokwari@gmail.com", "nama": "rsu.manokwari@gmail.com"}],
+        "tel": [{"link": "tel:0986211440", "nama": "(0986) 211440"}],
+        "lat": "0",
+        "lon": "0"
+    },
+    {
+        "no": 97,
+        "prov": "Papua Barat",
+        "nama_rs": "RSUD Kab. Sorong",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:rsud.kabsorong@gmail.com", "nama": "rsud.kabsorong@gmail.com"}],
+        "tel": [{"link": "tel:0951321850", "nama": "(0951) 321850"}]
+    }
+]
