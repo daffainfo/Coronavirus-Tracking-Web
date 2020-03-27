@@ -17,6 +17,10 @@
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!---Basic Styles and Javascript for Work-->
+    <link href="styles.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -66,7 +70,35 @@
                 </div>
             </nav>
             <div class="container">
-              <iframe class="embed-responsive-item mx-auto" src="/covid" height="500px" width="100%" frameborder="0"></iframe>
+                <div class="container shadow border border-primary m-sm-3 rounded" style="height: 280px;">
+                    <div class="row bg-primary" style="height: 40px;">
+                      <div class="m-auto text-white footer">Cek Protokol Kesehatan</div>
+                    </div>
+                    <div class="row controls" style="height: 240px;">
+                      <div id="question-container" class="mx-3 my-auto hide">
+                        <p id="question" class="text-primary">Question</p>
+                        <div id="answer-buttons" class="btn-grid">
+                          <button type="button" class="btn btn-outline-primary">Answer 1</button>
+                          <button type="button" class="btn btn-outline-primary">Answer 1</button>
+                          <button type="button" class="btn btn-outline-primary">Answer 1</button>
+                        </div>
+                      </div>
+                      <div>
+                        <div id="result-container" class="justify-content-center hide">
+                          <div id="kondisi" class="btn btn-outline-info">Kondisi 1:</div>
+                          <br><br>
+                          <div id="prosedur-sign" class="btn-group" data-toggle="popover" data-placement="top">
+                            <button id="prosedur" type="button" class="btn btn-outline-info">Prosedur 1:</button>
+                            <button type="button" class="btn btn-info">?</button>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="row justify-content-center">
+                          <button id="start-btn" type="button" class="justify-content-center btn btn-primary">Start Test</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
