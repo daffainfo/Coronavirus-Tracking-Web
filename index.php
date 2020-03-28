@@ -21,7 +21,7 @@
 
 <body>
 <?php
-$url='https://api.kawalcorona.com/';
+$url='https://api.kawalcorona.com/indonesia';
 $reqs = file_get_contents($url);
 $json = json_decode($reqs);
 ?>
@@ -78,7 +78,7 @@ $json = json_decode($reqs);
                         <div class="d-flex ">
                           <div class="text-white">
                             <p class="text-white mb-0">TOTAL POSITIF</p>
-                            <h2 class="mb-0 number-font"><?php echo $json[35]->attributes->Confirmed ?></h2>
+                            <h2 class="mb-0 number-font"><?php echo $json[0]->positif ?></h2>
                           </div>
                         </div>
                       </div>
@@ -90,7 +90,7 @@ $json = json_decode($reqs);
                         <div class="d-flex">
                           <div class="text-white">
                             <p class="text-white mb-0">TOTAL PULIH</p>
-                            <h2 class="mb-0 number-font"><?php echo $json[35]->attributes->Recovered ?></h2>
+                            <h2 class="mb-0 number-font"><?php echo $json[0]->sembuh ?></h2>
                           </div>
                         </div>
                       </div>
@@ -102,7 +102,7 @@ $json = json_decode($reqs);
                       <div class="d-flex">
                         <div class="text-white">
                         <p class="text-white mb-0">TOTAL MENINGGAL</p>
-                        <h2 class="mb-0 number-font"><?php echo $json[35]->attributes->Deaths ?></h2>
+                        <h2 class="mb-0 number-font"><?php echo $json[0]->meninggal ?></h2>
                         </div>
                     </div>
                   </div>
