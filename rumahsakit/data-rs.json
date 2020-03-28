@@ -414,7 +414,7 @@
         "prov": "DKI Jakarta",
         "nama_rs": "RSUP Persahabatan",
         "situs": [{"link": "https://www.rsuppersahabatan.co.id/", "nama": "www.rsuppersahabatan.co.id/"}],
-        "emailtel": [{"link": "info@rsuppersahabatan.co.id", "nama": "info@rsuppersahabatan.co.id"}],
+        "email": [{"link": "info@rsuppersahabatan.co.id", "nama": "info@rsuppersahabatan.co.id"}],
         "tel": [{"link": "tel:02122472222 ", "nama": "(021) 22472222 "}] ,
         "lat": "-6.2028062",
         "lon": "106.8826348"
