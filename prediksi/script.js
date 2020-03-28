@@ -135,7 +135,7 @@ function showResult() {
             setPopAtt(resultPSign, "Anda mungkin menjadi carrier COVID 19, diharapkan untuk tetap di rumah sekaligus menjaga jarak dengan keluarga")
             break;
         case "3":
-            resultProsedur.innerHTML = 'Prosedur 3 : Direkomendasikan untuk di rumah selama pandemi berlangsung atau menunggu pandemi dapat diatur'
+            resultProsedur.innerHTML = 'Prosedur 3 : Direkomendasikan untuk selalu di rumah selama pandemi berlangsung'
             setPopAtt(resultPSign, "Anda berpeluang besar mengalami kondisi kritis jika terkena COVID 19, mohon menahan diri selama pandemi")
             break;
         case "4":
