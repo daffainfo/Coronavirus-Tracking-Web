@@ -115,8 +115,8 @@ $json = json_decode($reqs);
                 </div>
             <iframe src="./indo.html" height="500" width="100%" frameborder="0" class="pt-4"></iframe>
             <div class="container">
-            <label for="input" class="pt-2">Cari rumah sakit</label>
-            <input type='text' id='input' onkeyup='searchTable()' placeholder="Cari rumah sakit" class="form-control" width="10px">
+            <label for="input">Cari provinsi</label>
+            <input type='text' id='input' onkeyup='searchTable()' placeholder="Cari berdasarkan provinsi" class="form-control" width="10px">
             <br>
             <table class="table table-striped table-bordered" id="table" data-toggle="table">
               <thead>
