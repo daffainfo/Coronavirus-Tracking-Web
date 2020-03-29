@@ -1,9 +1,4 @@
-*, *::before, *::after {
-    font-family: sans-serif;
-    font-size: 1.0rem;
-  }
-
-  .btn-col {
+.btn-col {
     width: 90%;
     white-space: normal;
     word-wrap: break-word;
