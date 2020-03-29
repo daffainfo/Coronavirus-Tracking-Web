@@ -3,6 +3,11 @@
     font-size: 1.0rem;
   }
 
+  .btn-col {
+    width: 90%;
+    white-space: normal;
+  }
+
   .footer {
     font-size: large;
     font-weight: 600;

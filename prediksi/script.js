@@ -17,9 +17,10 @@ let currentKondisi, currentProsedur
 
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
-  });
+});
 
 startButton.addEventListener('click', startTest)
+
 
 function startTest() {
     startButton.classList.add('hide')
@@ -114,9 +115,9 @@ function showResult() {
         case "2":
             resultKondisi.innerHTML = 'Kondisi 2 : Kelompok kuat dengan risiko tertular'
             break;
-            case "3":
-                resultKondisi.innerHTML = 'Kondisi 3 : Kelompok rentan mengalami kritikal kondisi saat tertular'
-            break;
+        case "3":
+            resultKondisi.innerHTML = 'Kondisi 3 : Kelompok rentan mengalami kritikal kondisi saat tertular'
+        break;
         case "4":
             resultKondisi.innerHTML = 'Kondisi 4 : Kelompok kuat dengan risiko tertular sangat rendah'
             break;
