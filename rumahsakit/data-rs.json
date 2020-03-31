@@ -968,5 +968,75 @@
         "tel": [{"link": "tel:0951321850", "nama": "(0951) 321850"}],
         "lat": "-0.8695917",
         "lon": "130.9666711"
+    },
+    {
+        "no": 98,
+        "prov": "Nusa Tenggara Barat",
+        "nama_rs": "RS H. L. Manambai Abdulkadir",
+        "situs": [{"link": "https://rsmanambai.ntbprov.go.id/", "nama": "rsmanambai.ntbprov.go.id"}],
+        "email": [{"link": "mailto:rsudp_disumbawa@yahoo.com", "nama": "rsudp_disumbawa@yahoo.com"}],
+        "tel": [{"link": "tel:0371-2628078", "nama": "0371-2628078"}],
+        "lat": "-8.5315783",
+        "lon": "117.4455123"
+    },
+        {
+        "no": 99,
+        "prov": "Nusa Tenggara Barat",
+        "nama_rs": "RSU Bima",
+        "situs": [{"link": "https://rsudbima.wordpress.com/", "nama": "rsudbima.wordpress.com"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0374-43142", "nama": "(0374) 43142"}],
+        "lat": "-8.4736235",
+        "lon": "118.7267801"
+    },
+        {
+        "no": 100,
+        "prov": "Nusa Tenggara Barat",
+        "nama_rs": "RSUD Dr. R. Soedjono Selang",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "mailto:r-soedjono@lycos.com", "nama": "r-soedjono@lycos.com"}],
+        "tel": [{"link": "tel:0376-21599", "nama": "0376-21599"}],
+        "lat": "-8.6506132",
+        "lon": "116.5261823"
+    },
+        {
+        "no": 101,
+        "prov": "Nusa Tenggara Barat",
+        "nama_rs": "RSUD Prov. NTB",
+        "situs": [{"link": "https://rsud.ntbprov.go.id/", "nama": "rsud.ntbprov.go.id"}],
+        "email": [{"link": "mailto:rsud@ntbprov.go.id", "nama": "rsud@ntbprov.go.id"}],
+        "tel": [{"link": "tel:0370-7502424", "nama": "0370-7502424"}],
+        "lat": "-8.6074062",
+        "lon": "116.130854"
+    },
+        {
+        "no": 102,
+        "prov": "Nusa Tenggara Barat",
+        "nama_rs": "RSUD Prof. Dr. W.Z. Johanes",
+        "situs": [{"link": "http://rsudwzjohanes.nttprov.go.id/web/", "nama": "rsudwzjohanes.nttprov.go.id"}],
+        "email": [{"link": "mailto:rsudjohannes@gmail.com", "nama": "rsudjohannes@gmail.com"}],
+        "tel": [{"link": "tel:0380-833614", "nama": "0380-833614"}],
+        "lat": "-10.1683118",
+        "lon": "123.5835438"
+    },
+    {
+        "no": 103,
+        "prov": "Nusa Tenggara Barat",
+        "nama_rs": "RSUD Dr. Tc. Hillers",
+        "situs": [{"link": "https://www.rsudtchillers.id/", "nama": "rsudtchillers.id"}],
+        "email": [{"link": "mailto:admin@rsuddrtchillers.co.id", "nama": "admin@rsuddrtchillers.co.id"}],
+        "tel": [{"link": "tel:0382-21314", "nama": "0382-21314"}],
+        "lat": "-8.6223804",
+        "lon": "122.2020435"
+    },
+    {
+        "no": 104,
+        "prov": "Nusa Tenggara Barat",
+        "nama_rs": "RSUD Komodo Labuan Bojo",
+        "situs": [{"link": "-", "nama": "-"}],
+        "email": [{"link": "-", "nama": "-"}],
+        "tel": [{"link": "tel:0385-2443240", "nama": "0385-2443240"}],
+        "lat": "-8.5412543",
+        "lon": "119.8940731"
     }
 ]
