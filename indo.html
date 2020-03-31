@@ -23,46 +23,44 @@
             var dataprov = JSON.parse(this.response)
             if(request.status >= 200 && request.status < 400){
                 var output = [
-                    ['id-ac', [1,2,3]],     // Aceh
-                    ['id-su', [0,0,0]],     // Sumatera Utara
-                    ['id-sb', [0,0,0]],     // Sumatera Barat
-                    ['id-ri', [0,0,0]],     // Riau
-                    ['id-ja', [0,0,0]],     // Jambi
-                    ['id-sl', [0,0,0]],     // Sumatera Selatan
-                    ['id-be', [0,0,0]],     // Bengkulu !
-                    ['id-bb', [0,0,0]],     // Bangka Belitung
-                    ['id-1024', [0,0,0]],   // Lampung
-                    ['id-kr', [0,0,0]],    // Kepulauan Riau
-                    ['id-jk', [0,0,0]],    // DKI Jakarta
-                    ['id-jr', [0,0,0]],    // Jawa Barat
-                    ['id-jt', [0,0,0]],    // Jawa Tengah
-                    ['id-yo', [0,0,0]],    // DIY Jogjakarta
-                    ['id-ji', [0,0,0]],    // Jawa Timur
-                    ['id-bt', [0,0,0]],    // Banten
-                    ['id-ba', [0,0,0]],    // Bali
-                    ['id-nb', [0,0,0]],    // NTB
-                    ['id-nt', [0,0,0]],    // NTT !
-                    ['id-kb', [0,0,0]],    // Kalimantan Barat
-                    ['id-kt', [0,0,0]],    // Kalimantan Tengah
-                    ['id-ks', [0,0,0]],    // Kalimantan Selatan
-                    ['id-ki', [0,0,0]],    // Kalimantan Timur
-                    ['id-ku', [0,0,0]],    // Kalimantan Utara
-                    ['id-sw', [0,0,0]],    // Sulawesi Utara
-                    ['id-st', [0,0,0]],    // Sulawesi Tengah
-                    ['id-se', [0,0,0]],    // Sulawesi Selatan
-                    ['id-sg', [0,0,0]],    // Sulawesi Tenggara
-                    ['id-go', [0,0,0]],    // Gorontalo !
-                    ['id-sr', [0,0,0]],    // Sulawesi Barat
-                    ['id-ma', [0,0,0]],    // Maluku
-                    ['id-la', [0,0,0]],    // Maluku Utara
-                    ['id-pa', [0,0,0]],    // Irian Jaya
-                    ['id-ib', [0,0,0]],    // Irian Jaya Barat
+                    ['id-ac', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Aceh
+                    ['id-su', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Sumatera Utara
+                    ['id-sb', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Sumatera Barat
+                    ['id-ri', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Riau
+                    ['id-ja', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Jambi
+                    ['id-sl', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Sumatera Selatan
+                    ['id-be', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Bengkulu !
+                    ['id-bb', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],     // Bangka Belitung
+                    ['id-1024', 'Po<br>sitif   : 0<br>Meninggal : 0<br>Sembuh : 0'],   // Lampung
+                    ['id-kr', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Kepulauan Riau
+                    ['id-jk', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // DKI Jakarta
+                    ['id-jr', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Jawa Barat
+                    ['id-jt', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Jawa Tengah
+                    ['id-yo', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // DIY Jogjakarta
+                    ['id-ji', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Jawa Timur
+                    ['id-bt', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Banten
+                    ['id-ba', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Bali
+                    ['id-nb', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // NTB
+                    ['id-nt', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // NTT !
+                    ['id-kb', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Kalimantan Barat
+                    ['id-kt', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Kalimantan Tengah
+                    ['id-ks', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Kalimantan Selatan
+                    ['id-ki', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Kalimantan Timur
+                    ['id-ku', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Kalimantan Utara
+                    ['id-sw', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Sulawesi Utara
+                    ['id-st', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Sulawesi Tengah
+                    ['id-se', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Sulawesi Selatan
+                    ['id-sg', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Sulawesi Tenggara
+                    ['id-go', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Gorontalo !
+                    ['id-sr', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Sulawesi Barat
+                    ['id-ma', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Maluku
+                    ['id-la', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Maluku Utara
+                    ['id-pa', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Irian Jaya
+                    ['id-ib', '<br>Positif : 0<br>Meninggal : 0<br>Sembuh : 0'],    // Irian Jaya Barat
                 ];
 
                 dataprov.forEach(attrib => {
-                    output[attrib.attributes.FID - 1][1][0] = attrib.attributes.Kasus_Posi
-                    output[attrib.attributes.FID - 1][1][1] = attrib.attributes.Kasus_Meni
-                    output[attrib.attributes.FID - 1][1][2] = attrib.attributes.Kasus_Semb
+                    output[attrib.attributes.FID - 1][1] = '<br>Positif : '+ attrib.attributes.Kasus_Posi + '<br>Meninggal : ' + attrib.attributes.Kasus_Meni + '<br>Sembuh : ' + attrib.attributes.Kasus_Semb;
                 });
                 
                 getMap(output);
@@ -98,7 +96,7 @@
                 
                 series: [{
                     data: output,
-                    name: 'Positif-Meninggal-Sembuh',
+                    name: 'Data Provinsi',
                     states: {
                         hover: {
                         color: '#dc3545'
