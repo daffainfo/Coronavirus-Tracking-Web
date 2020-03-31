@@ -61,8 +61,8 @@
 
                 dataprov.forEach(attrib => {
                     output[attrib.attributes.FID - 1][1][0] = attrib.attributes.Kasus_Posi
-                    output[attrib.attributes.FID - 1][1][1] = attrib.attributes.Kasus_Semb
-                    output[attrib.attributes.FID - 1][1][2] = attrib.attributes.Kasus_Meni
+                    output[attrib.attributes.FID - 1][1][1] = attrib.attributes.Kasus_Meni
+                    output[attrib.attributes.FID - 1][1][2] = attrib.attributes.Kasus_Semb
                 });
                 
                 getMap(output);
@@ -98,10 +98,10 @@
                 
                 series: [{
                     data: output,
-                    name: 'Positif-Sembuh-Meninggal',
+                    name: 'Positif-Meninggal-Sembuh',
                     states: {
                         hover: {
-                        color: '#BADA55'
+                        color: '#dc3545'
                     }
                 },
                 dataLabels: {
