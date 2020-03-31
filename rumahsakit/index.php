@@ -25,35 +25,35 @@
   <div class="d-flex" id="wrapper">
     <div class="wrapper">
         <!-- Sidebar  -->
-                <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>Info Corona</h3>
-            </div>
+        <nav id="sidebar">
+          <div class="sidebar-header">
+              <h3>Info Corona</h3>
+          </div>
 
-            <ul class="list-unstyled components" style="font-size: 1rem;">
-                <p align="center">Live Corona Data</p>
-                <li>
-                  <a href="/"><i class="fas fa-chart-bar icon mr-3 ml-3 fa-fw"></i>Beranda</a>
-                </li>
-                <li>
-                  <a href="/berita"><i class="fas fa-newspaper icon mr-3 ml-3 fa-fw"></i>Berita</a>
-                </li>
-                <li>
-                  <a href="/rumahsakit"><i class="fas fa-hospital icon mr-3 ml-3 fa-fw"></i>Info Rumah Sakit</a>
-                </li>
-                <li>
-                    <a href="/prediksi"><i class="fas fa-diagnoses icon mr-3 ml-3 fa-fw"></i>Prediksi</a>
-                </li>
-                <li>
-                    <a href="/kontak"><i class="fas fa-phone fa-flip-horizontal icon mr-3 ml-3 fa-fw"></i>Kontak</a>
-                </li>
-            </ul>
+          <ul class="list-unstyled components" style="font-size: 1rem;">
+              <p align="center">Live Corona Data</p>
+              <li>
+                <a href="/"><i class="fas fa-chart-bar icon mr-3 ml-3 fa-fw"></i>Beranda</a>
+              </li>
+              <li>
+                <a href="/berita"><i class="fas fa-newspaper icon mr-3 ml-3 fa-fw"></i>Berita</a>
+              </li>
+              <li>
+                <a href="/rumahsakit"><i class="fas fa-hospital icon mr-3 ml-3 fa-fw"></i>Info Rumah Sakit</a>
+              </li>
+              <li>
+                  <a href="/prediksi"><i class="fas fa-diagnoses icon mr-3 ml-3 fa-fw"></i>Prediksi</a>
+              </li>
+              <li>
+                  <a href="/kontak"><i class="fas fa-phone fa-flip-horizontal icon mr-3 ml-3 fa-fw"></i>Kontak</a>
+              </li>
+          </ul>
 
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="/dev" class="download"><i class="fas fa-code icon mr-3 fa-fw"></i>Developer web</a>
-                </li>
-            </ul>
+          <ul class="list-unstyled CTAs">
+              <li>
+                  <a href="/dev" class="download"><i class="fas fa-code icon mr-3 fa-fw"></i>Developer web</a>
+              </li>
+          </ul>
         </nav>
 
         <!-- Page Content  -->

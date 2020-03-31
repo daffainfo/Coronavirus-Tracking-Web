@@ -7,87 +7,110 @@
     <style src="map.css" type="text/css"></style>
   </head>
   <body>
+    <div id="error"></div>
     <div id="container" width="600px" height="200px"></div>
-  </body>
-  	<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 	<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
-	<script src="https://code.highcharts.com/mapdata/countries/id/id-all.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/id/id-all.js"></script>
 	<script>
-var data = [
-  ['id-ac', 5], //Aceh
-  ['id-jt', 81], //Jawa Tengah
-  ['id-be', 0], //Bengkulu
-  ['id-bt', 128], //Banten
-  ['id-kb', 9], //Kalimantan Barat
-  ['id-bb', 1], //Bangka Belitung
-  ['id-ba', 19], //Bali
-  ['id-ji', 91], //jawa Timur
-  ['id-ks', 5], //Kalimantan Selatan
-  ['id-nt', 0], //NTT
-  ['id-se', 50], //Sulawesi Selatan
-  ['id-kr', 6], //Kep.Riau
-  ['id-ib', 2], //Irian Jaya Barat
-  ['id-su', 13], //Sumatera Utara
-  ['id-ri', 3], //Riau
-  ['id-sw', 2], //Sulawesi Utara
-  ['id-ku', 2], //Kalimantan Utara
-  ['id-la', 1], //Maluku Utara
-  ['id-sb', 8], //Sumatera Barat
-  ['id-ma', 1], //Maluku
-  ['id-nb', 2], //NTB
-  ['id-sg', 3], //Sulawesi Tenggara
-  ['id-st', 3], //Sulawesi Tengah
-  ['id-pa', 9], //Irian jaya
-  ['id-jr', 180], //Jawa Barat
-  ['id-ki', 17], //Kalimantan timur
-  ['id-1024', 8], //Lampung
-  ['id-jk', 698], //Jakarta
-  ['id-go', 0], //Gorontalo
-  ['id-yo', 18], //Jogjakarta
-  ['id-sl', 2], //Sumatera Selatan
-  ['id-sr', 1], //Sulawesi Barat
-  ['id-ja', 2], //Jambi
-  ['id-kt', 7] //kalimantan tengah
-];
+        const showError = document.getElementById('error')
+        
+        var request = new XMLHttpRequest()
+        request.open('GET', 'https://api.kawalcorona.com/indonesia/provinsi/', true)
+        
+        request.onload = function () {
+            //Begin accessing the data
+            var dataprov = JSON.parse(this.response)
+            if(request.status >= 200 && request.status < 400){
+                var output = [
+                    ['id-ac', [1,2,3]],     // Aceh
+                    ['id-su', [0,0,0]],     // Sumatera Utara
+                    ['id-sb', [0,0,0]],     // Sumatera Barat
+                    ['id-ri', [0,0,0]],     // Riau
+                    ['id-ja', [0,0,0]],     // Jambi
+                    ['id-sl', [0,0,0]],     // Sumatera Selatan
+                    ['id-be', [0,0,0]],     // Bengkulu !
+                    ['id-bb', [0,0,0]],     // Bangka Belitung
+                    ['id-1024', [0,0,0]],   // Lampung
+                    ['id-kr', [0,0,0]],    // Kepulauan Riau
+                    ['id-jk', [0,0,0]],    // DKI Jakarta
+                    ['id-jr', [0,0,0]],    // Jawa Barat
+                    ['id-jt', [0,0,0]],    // Jawa Tengah
+                    ['id-yo', [0,0,0]],    // DIY Jogjakarta
+                    ['id-ji', [0,0,0]],    // Jawa Timur
+                    ['id-bt', [0,0,0]],    // Banten
+                    ['id-ba', [0,0,0]],    // Bali
+                    ['id-nb', [0,0,0]],    // NTB
+                    ['id-nt', [0,0,0]],    // NTT !
+                    ['id-kb', [0,0,0]],    // Kalimantan Barat
+                    ['id-kt', [0,0,0]],    // Kalimantan Tengah
+                    ['id-ks', [0,0,0]],    // Kalimantan Selatan
+                    ['id-ki', [0,0,0]],    // Kalimantan Timur
+                    ['id-ku', [0,0,0]],    // Kalimantan Utara
+                    ['id-sw', [0,0,0]],    // Sulawesi Utara
+                    ['id-st', [0,0,0]],    // Sulawesi Tengah
+                    ['id-se', [0,0,0]],    // Sulawesi Selatan
+                    ['id-sg', [0,0,0]],    // Sulawesi Tenggara
+                    ['id-go', [0,0,0]],    // Gorontalo !
+                    ['id-sr', [0,0,0]],    // Sulawesi Barat
+                    ['id-ma', [0,0,0]],    // Maluku
+                    ['id-la', [0,0,0]],    // Maluku Utara
+                    ['id-pa', [0,0,0]],    // Irian Jaya
+                    ['id-ib', [0,0,0]],    // Irian Jaya Barat
+                ];
 
-// Create the chart
-Highcharts.mapChart('container', {
-  chart: {
-    map: 'countries/id/id-all'
-  },
-
-  title: {
-    text: 'Corona Virus Indonesia'
-  },
-
-  subtitle: {
-    text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/id/id-all.js">Indonesia</a>'
-  },
-
-  mapNavigation: {
-    enabled: true,
-    buttonOptions: {
-      verticalAlign: 'bottom'
-    }
-  },
-
-  colorAxis: {
-    min: 0
-  },
-
-  series: [{
-    data: data,
-    name: 'Positif',
-    states: {
-      hover: {
-        color: '#BADA55'
-      }
-    },
-    dataLabels: {
-      enabled: true,
-      format: '{point.name}'
-    }
-  }]
-});
-	</script>
+                dataprov.forEach(attrib => {
+                    output[attrib.attributes.FID - 1][1][0] = attrib.attributes.Kasus_Posi
+                    output[attrib.attributes.FID - 1][1][1] = attrib.attributes.Kasus_Semb
+                    output[attrib.attributes.FID - 1][1][2] = attrib.attributes.Kasus_Meni
+                });
+                
+                getMap(output);
+            }else{
+                const errorMSG = document.createElement('marquee')
+                errorMSG.textContent = 'Server mungkin bermasalah'
+                showError.appendChild(errorMSG)
+            }
+        }
+        request.send()
+        
+        function getMap(output){
+            // Create the chart
+            Highcharts.mapChart('container', {
+                chart: {
+                    map: 'countries/id/id-all'
+                },
+    
+                title: {
+                    text: 'Corona Virus Indonesia'
+                },
+                
+                subtitle: {
+                    text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/id/id-all.js">Indonesia</a>'
+                },
+                
+                mapNavigation: {
+                    enabled: true,
+                    buttonOptions: {
+                        verticalAlign: 'bottom'
+                    }
+                },
+                
+                series: [{
+                    data: output,
+                    name: 'Positif-Sembuh-Meninggal',
+                    states: {
+                        hover: {
+                        color: '#BADA55'
+                    }
+                },
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.name}'
+                }
+            }]
+            });
+        }
+        </script>
+</body>
 </html>
